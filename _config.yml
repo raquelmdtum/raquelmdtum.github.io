@@ -30,7 +30,7 @@ twitter_username: donthaveone
 github_username:  raquelmdtum
 
 # Build settings
-theme: minimal
+theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
 
