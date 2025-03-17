@@ -30,7 +30,7 @@ twitter_username: donthaveone
 github_username:  raquelmdtum
 
 # Build settings
-remote_theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 
