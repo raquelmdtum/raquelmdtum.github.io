@@ -9,9 +9,9 @@ categories: blog
 
 ## Lecture exercises:
 
-![From lecture 5 I think](images/output.png)
+![From lecture 5 I think](raquelmdtum/images/output.png)
 
-![From lecture 4](images/output2.png)
+![From lecture 4](raquelmdtum/images/output2.png)
 
 # Bokeh Visualization
 
