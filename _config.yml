@@ -32,7 +32,6 @@ github_username:  raquelmdtum
 # Build settings
 remote_theme: minima
 plugins:
-  - jekyll-remote-theme plugins
   - jekyll-feed
 
 # Exclude from processing.
