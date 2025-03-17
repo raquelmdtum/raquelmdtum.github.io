@@ -9,13 +9,12 @@ categories: blog
 
 ## Lecture exercises:
 
-![From lecture 5 I think](raquelmdtum/images/output.png)
+![From lecture 5 I think](./images/output.png)
 
-![From lecture 4](raquelmdtum/images/output2.png)
+![From lecture 4](./images/output2.png)
 
 # Bokeh Visualization
 
 Here is an interactive Bokeh visualization:
 
-<iframe src="images/bokeh_plot.html" width="100%" height="600px"></iframe>
-
+<iframe src="/images/bokeh_plot.html" width="100%" height="600px"></iframe>
