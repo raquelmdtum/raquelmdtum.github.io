@@ -10,7 +10,7 @@ I moving to Copenhagen when I was 17 years old and have been living here so far 
 
 If you knwo anything about me, you know I love to travel. So here is all the countries I have gone to so far and my favorite thing about my vacatin there:
 
-🇵🇹 > HOME, prettiest ever, it has so much to see, eat and interact. \\ 
+🇵🇹 > HOME, prettiest ever, it has so much to see, eat and interact. \\
 🇫🇷 > Went there on a school trip on 9th grade, LOVE the monuments and architecture. Would love to come back. \\
 🇪🇸 > Good vibes, food and weather. Have visited a couple times and would really like to keep doing so. \\
 🇩🇪 > Very very quick trip, had the time of my life at a concert but the weather was giving depression. \\
