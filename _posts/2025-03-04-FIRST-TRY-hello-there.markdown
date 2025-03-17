@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FIRST TRY - hello there :D"
+title:  "FIRST TRY hello there"
 date:   2025-03-18 13:23:57 +0100
 categories: jekyll update
 ---
