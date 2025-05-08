@@ -20,7 +20,7 @@ Our analysis dives deep into a dataset of UFO sightings from across the United S
 
 One of the first things we wanted to understand is where these sightings are happening. By mapping the geographical spread of UFO encounters, we can begin to see clear patterns and "hotspots" where sightings occur more frequently. 
 
+<div>
+    <iframe id="3d_map" src="{{ site.baseurl }}images\3d_ufo_sightings_map.html" width="100%" height="450px" title="3D Mapping of sightings"></iframe>
+</div>
 
-<iframe id="3d_map" src="{{ site.baseurl }}images\3d_ufo_sightings_map.html" width="100%" height="450px" title="3D Mapping of sightings"></iframe>
-
-images\3d_ufo_sightings_map.html

@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Londrina+Solid&display=swap');
 
 body {
     background-color:rgb(9, 27, 41);
-    font-family: 'Montserrat'; font-size: 15px; color: rgb(255, 255, 255); 
+    font-family: 'Allerta'; font-size: 15px; color: rgb(255, 255, 255); 
 }
 
 .post-header {
-    color: yellow;
+    color: rgb(243, 201, 105);
+    font-family: 'Londrina Solid';
 }
 
 .page {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Allerta';
     color: rgb(255, 255, 255);
     background-color: rgb(9, 27, 41);
 }

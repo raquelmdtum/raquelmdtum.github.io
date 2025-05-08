@@ -3,6 +3,9 @@ layout: page
 title: About me
 permalink: /about/
 ---
+<head>
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+</head>
 
 By Group 53. Members:
 - Inês Tacanho: s232669  
