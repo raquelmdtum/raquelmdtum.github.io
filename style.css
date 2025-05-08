@@ -5,6 +5,10 @@ body {
     font-family: 'Montserrat'; font-size: 15px; color: rgb(255, 255, 255); 
 }
 
+.post-header {
+    color: yellow;
+}
+
 .page {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
