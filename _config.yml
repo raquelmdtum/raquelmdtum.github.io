@@ -22,10 +22,12 @@ title: UFO Sightings
 subtitle: An exploration of UFO sightings thourghout the years in the US
 email: s243636@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
-  ""
+  This project was created as part of the Social Data Analysis and Visualization
+  course at DTU. The goal of this project is to explore UFO sightings in the US and their evolution
+  over the years.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: donthaveone
+#twitter_username: donthaveone
 github_username:  raquelmdtum
 
 # Build settings
