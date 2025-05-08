@@ -23,6 +23,10 @@ body {
     background-color: rgb(9, 27, 41);
 }
 
+nav a, .navbar a, .site-nav a {
+    color: #ffffff !important; /* Make sure it overrides theme */
+}
+
 iframe {
     display: block; /* Show*/
 

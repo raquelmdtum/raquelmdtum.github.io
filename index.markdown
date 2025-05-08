@@ -24,4 +24,5 @@ One of the first things we wanted to understand is where these sightings are hap
     <iframe id="3d_map" src="{{ site.baseurl }}images\3d_ufo_sightings_map.html" width="100%" height="450px" title="3D Mapping of sightings"></iframe>
 </div>
 
- We are able to notice areas like southern California and Arizona and North Washington showing more concentrated sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to UFO encounters?
+<br>
+We are able to notice areas like southern California and Arizona and North Washington showing more concentrated sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to UFO encounters?
