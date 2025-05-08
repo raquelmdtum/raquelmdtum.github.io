@@ -8,7 +8,7 @@ body {
 .body-header {
     color: rgb(243, 201, 105);
     font-family: 'Allerta';
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .post-header {
@@ -23,8 +23,13 @@ body {
     background-color: rgb(9, 27, 41);
 }
 
-nav a, .navbar a, .site-nav a {
-    color: #ffffff !important; /* Make sure it overrides theme */
+.site-header a, nav a, header a {
+  color: #ffcc00 !important; /* your desired color */
+}
+
+
+.site-header a:hover, nav a:hover, header a:hover {
+  color: #ffffff !important; /* hover color */
 }
 
 iframe {
