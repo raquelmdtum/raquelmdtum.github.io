@@ -13,7 +13,7 @@ layout: home
     <h1 class="post-title">UFO Sightings</h1>
 </header>
 
-## Introduction
+<h2 class ="body-header">Introduction </h2>
 For decades, UFO sightings have captured the imagination of people all over the world. What once seemed like fantastical stories of strange lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors, lies a wealth of data. In this project, we dive deep into the history of UFO sightings in the United States, analyzing trends, patterns, and anomalies through the lens of data.
 
 Our analysis dives deep into a dataset of UFO sightings from across the United States, spanning several decades. Through interactive visualizations, we reveal the most intriguing insights, highlighting not just where and when sightings occurred, but also what people were describing in their encounters.
@@ -24,3 +24,4 @@ One of the first things we wanted to understand is where these sightings are hap
     <iframe id="3d_map" src="{{ site.baseurl }}images\3d_ufo_sightings_map.html" width="100%" height="450px" title="3D Mapping of sightings"></iframe>
 </div>
 
+ We are able to notice areas like southern California and Arizona and North Washington showing more concentrated sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to UFO encounters?
