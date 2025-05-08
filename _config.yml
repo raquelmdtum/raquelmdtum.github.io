@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: UFO Sightings
+title: 02806 - Social Data Analysis and Visualization
 subtitle: An exploration of UFO sightings thourghout the years in the US
 emails:
   - s243636@dtu.dk

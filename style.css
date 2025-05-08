@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-    background-color:ghostwhite;
+    background-color:rgb(31, 31, 70);
     font-family: 'Montserrat'; font-size: 15px;  
 }
 
 .page {
     font-family: 'Montserrat', sans-serif;
-    color: black;
-    background-color: ghostwhite;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 70);
 }
 
 iframe {
