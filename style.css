@@ -8,13 +8,13 @@ body {
 .body-header {
     color: rgb(243, 201, 105);
     font-family: 'Allerta';
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .post-header {
     color: rgb(252, 252, 252);
     font-family: 'Londrina Solid';
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .page {

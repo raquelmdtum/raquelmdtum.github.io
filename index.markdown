@@ -10,7 +10,7 @@ layout: home
 
 
 <header class="post-header">
-    <h1 class="post-title">UFO Sightings</h1>
+    <h1 class="post-title">UFO Sightings through time across the USA </h1>
 </header>
 
 <h2 class ="body-header">Introduction </h2>
