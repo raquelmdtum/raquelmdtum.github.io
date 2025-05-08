@@ -20,7 +20,10 @@
 
 title: UFO Sightings
 subtitle: An exploration of UFO sightings thourghout the years in the US
-email: s243636@dtu.dk
+emails:
+  - s243636@dtu.dk
+  - s243933@dtu.dk
+  - s232669@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This project was created as part of the Social Data Analysis and Visualization
   course at DTU. The goal of this project is to explore UFO sightings in the US and their evolution

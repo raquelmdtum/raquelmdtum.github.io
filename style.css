@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-color:ghostwhite;
+    font-family: 'Montserrat'; font-size: 15px;  
+}
+
+.page {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: ghostwhite;
+}
+
+iframe {
+    display: block; /* Show*/
+
+}
+
+iframe.active {
+    display: block; /* Show*/
+
+}
+
+button{
+    background-color: rgb(170, 186, 230);
+    color: black;
+    border: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #385e86;
+    color: white;
+    border: 8px;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #385e86;
+    color: white;
+    border: 8px;
+    transform: scale(1.1);
+}

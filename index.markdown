@@ -4,3 +4,13 @@
 
 layout: home
 ---
+<head>
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+</head>
+
+
+<header class="post-header">
+    <h1 class="post-title">San Francisco Crime & Tourism</h1>
+</header>
+
+## Information one
