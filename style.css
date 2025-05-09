@@ -43,6 +43,7 @@ body {
     color: white;
     font-family: 'Allerta';
     font-size: 15px;
+    box-sizing: border-box;
 }
 
 
