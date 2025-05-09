@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta&family=Londrina+Solid&display=swap');
 
 body {
-    /*
+    
     background-color:rgb(9, 27, 41);
     
     background-image:
@@ -14,53 +14,11 @@ body {
     background-size: 200px 200px;
     display: flex;
     justify-content: center;
-    font-family: 'Allerta'; font-size: 15px; color: rgb(255, 255, 255); */
+    font-family: 'Allerta'; font-size: 15px; color: rgb(255, 255, 255); 
 }
 
 
-body {
-    background-color: #010d1a;
-    font-family: 'Allerta'; font-size: 15px; color: rgb(255, 255, 255);
-  }
 
-  .decorated-sides {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  /* Left and right decorations */
-  .decorated-sides::before,
-  .decorated-sides::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 100px;  /* width of the margin decoration */
-    height: 100%;
-    background-image: 
-    radial-gradient(circle, #ffd700 4px, transparent 5px),
-    radial-gradient(circle, #00ffff 6px, transparent 7px),
-    radial-gradient(circle, #ff69b4 3px, transparent 4px),
-    radial-gradient(circle, #ffffff 2px, transparent 2.5px),
-    radial-gradient(circle, #00ffcc 5px, transparent 6px),
-    radial-gradient(circle, #ffcc00 2.5px, transparent 3.5px),
-    radial-gradient(circle, #ff99cc 3px, transparent 4px),
-    radial-gradient(circle, #ccffff 1.5px, transparent 2.5px),
-    radial-gradient(circle, #ffffff 1px, transparent 2px);
-  background-size: 120px 240px;
-    background-repeat: repeat;
-    z-index: 0;
-    pointer-events: none;
-  }
-  
-  .decorated-sides::before {
-    left: -100px;  /* push it outside the content box */
-  }
-  
-  .decorated-sides::after {
-    right: -100px;
-  }
 
 .body-header {
     color: rgb(243, 201, 105);
