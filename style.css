@@ -2,8 +2,18 @@
 
 body {
     background-color:rgb(9, 27, 41);
+    background-image:
+    radial-gradient(circle at 20% 20%, #ff69b4 3px, transparent 4px),
+    radial-gradient(circle at 70% 30%, #ffd700 5px, transparent 6px),
+    radial-gradient(circle at 40% 80%, #00ffff 4px, transparent 5px),
+    radial-gradient(circle at 90% 60%, #ffffff 2px, transparent 3px),
+    radial-gradient(circle at 10% 90%, #ffffff 1.5px, transparent 2px),
+    radial-gradient(circle at 80% 10%, #ffffff 1px, transparent 1.5px);
+    background-repeat: repeat;
+    background-size: 200px 200px;
     font-family: 'Allerta'; font-size: 15px; color: rgb(255, 255, 255); 
 }
+
 
 .body-header {
     color: rgb(243, 201, 105);
@@ -23,13 +33,26 @@ body {
     background-color: rgb(9, 27, 41);
 }
 
+
+/*Header */
 .site-header a, nav a, header a {
-  color: #ffcc00 !important; /* your desired color */
+  color: #ffffff !important;
+  font-size: 16px;
+  font-family: 'Allerta'; 
+}
+/*Header in hover */
+.site-header a:hover, nav a:hover, header a:hover {
+  color: #ffffff !important;
 }
 
-
-.site-header a:hover, nav a:hover, header a:hover {
-  color: #ffffff !important; /* hover color */
+/*Footer */
+.site-footer, .site-footer p, .site-footer span {
+  color: #ffffff !important; 
+}
+/* Footer link color */
+.site-footer a {
+    color: #ffffff !important; /* white links */
+    text-decoration: none;
 }
 
 iframe {
