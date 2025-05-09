@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta&family=Londrina+Solid&display=swap');
 
-body {
+/*body {
     
     background-color:rgb(9, 27, 41);
     background-image:
@@ -15,6 +15,37 @@ body {
     justify-content: center;
     font-family: 'Allerta'; font-size: 15px; color: rgb(255, 255, 255); 
 }
+*/
+
+body {
+    margin: 0;
+    background-color: rgb(9, 27, 41);
+    background-image:
+        radial-gradient(circle at 20% 30%, #ffd900d0 4px, transparent 5px),
+        radial-gradient(circle at 80% 60%, #00ffff88 10px, transparent 6px),
+        radial-gradient(circle at 40% 90%, #ff69b4b0 7.5px, transparent 5px),
+        radial-gradient(circle at 90% 20%, #ffffff 2px, transparent 2.5px),
+        radial-gradient(circle at 10% 80%, #ffffff 1.5px, transparent 2px);
+    background-repeat: repeat;
+    background-size: 200px 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-content {
+    width: 80%;
+    max-width: 1000px;
+    background-color: rgb(9, 27, 41); /* same as body to blend in */
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* optional: to visually separate */
+    color: white;
+    font-family: 'Allerta';
+    font-size: 15px;
+}
+
 
 .body-header {
     color: rgb(243, 201, 105);
