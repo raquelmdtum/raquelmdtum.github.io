@@ -37,7 +37,7 @@ body {
 
 .main-content {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1300px;
     background-color: rgb(9, 27, 41); /* same as body to blend in */
     padding: 2rem;
     color: white;
@@ -70,6 +70,7 @@ body {
   color: #ffffff !important;
   font-size: 16px;
   font-family: 'Allerta'; 
+  margin-right: 20px;
 }
 /*Header in hover */
 .site-header a:hover, nav a:hover, header a:hover {
