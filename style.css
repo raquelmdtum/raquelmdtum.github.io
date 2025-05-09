@@ -21,8 +21,18 @@ body {
 body {
     background-color: #010d1a;
     background-image:
-      radial-gradient(circle at 10% 30%, #ffd700 4px, transparent 5px),
-      radial-gradient(circle at 90% 60%, #00ffff 5px, transparent 6px);
+        /* Left side */
+        radial-gradient(circle at 5% 10%, #ffd700 5px, transparent 6px),
+        radial-gradient(circle at 5% 30%, #ff69b4 4px, transparent 5px),
+        radial-gradient(circle at 5% 60%, #00ffff 6px, transparent 7px),
+        radial-gradient(circle at 5% 90%, #ffffff 2px, transparent 3px),
+
+        /* Right side */
+        radial-gradient(circle at 95% 20%, #ff69b4 5px, transparent 6px),
+        radial-gradient(circle at 95% 50%, #ffd700 4px, transparent 5px),
+        radial-gradient(circle at 95% 80%, #00ffff 5px, transparent 6px),
+        radial-gradient(circle at 95% 95%, #ffffff 1.5px, transparent 2.5px);
+
     background-repeat: no-repeat;
     background-position: left top, right bottom;
     background-size: 150px 150px;
