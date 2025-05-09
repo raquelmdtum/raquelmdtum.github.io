@@ -39,15 +39,16 @@ body {
     width: 100px;  /* width of the margin decoration */
     height: 100%;
     background-image: 
-      radial-gradient(circle, #ffd700 4px, transparent 5px),
-      radial-gradient(circle, #00ffff 5px, transparent 6px),
-      radial-gradient(circle, #ff69b4 4px, transparent 5px),
-      radial-gradient(circle, #ffffff 2px, transparent 3px),
-      radial-gradient(circle, #ffd700 4px, transparent 5px),
-      radial-gradient(circle, #00ffff 5px, transparent 6px),
-      radial-gradient(circle, #ff69b4 4px, transparent 5px),
-      radial-gradient(circle, #ffffff 2px, transparent 3px);
-    background-size: 80px 200px;
+    radial-gradient(circle, #ffd700 4px, transparent 5px),
+    radial-gradient(circle, #00ffff 6px, transparent 7px),
+    radial-gradient(circle, #ff69b4 3px, transparent 4px),
+    radial-gradient(circle, #ffffff 2px, transparent 2.5px),
+    radial-gradient(circle, #00ffcc 5px, transparent 6px),
+    radial-gradient(circle, #ffcc00 2.5px, transparent 3.5px),
+    radial-gradient(circle, #ff99cc 3px, transparent 4px),
+    radial-gradient(circle, #ccffff 1.5px, transparent 2.5px),
+    radial-gradient(circle, #ffffff 1px, transparent 2px);
+  background-size: 120px 240px;
     background-repeat: repeat;
     z-index: 0;
     pointer-events: none;
@@ -111,7 +112,7 @@ iframe.active {
 
 }
 
-button{
+/*button{
     background-color: rgb(170, 186, 230);
     color: black;
     border: 16px;
@@ -131,4 +132,4 @@ button:active {
     color: white;
     border: 8px;
     transform: scale(1.1);
-}
+}*/
