@@ -47,23 +47,14 @@ body {
 }
 
 
-.body-header {
-    color: rgb(243, 201, 105);
-    font-family: 'Londrina Solid';
-    font-size: 32px;
-}
-
 .post-header {
     color: rgb(252, 252, 252);
     font-family: 'Londrina Solid';
     font-size: 50px;
+    text-align: center;
+    
 }
 
-.page {
-    font-family: 'Allerta';
-    color: rgb(255, 255, 255);
-    background-color: rgb(9, 27, 41);
-}
 
 
 /*Header */
