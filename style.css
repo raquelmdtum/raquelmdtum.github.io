@@ -21,11 +21,11 @@ body {
     margin: 0;
     background-color: rgb(9, 27, 41);
     background-image:
-        radial-gradient(circle at 20% 30%, #ffd900d0 4px, transparent 5px),
-        radial-gradient(circle at 80% 60%, #00ffff88 10px, transparent 6px),
-        radial-gradient(circle at 40% 90%, #ff69b4b0 7.5px, transparent 5px),
-        radial-gradient(circle at 90% 20%, #ffffff 2px, transparent 2.5px),
-        radial-gradient(circle at 10% 80%, #ffffff 1.5px, transparent 2px);
+        radial-gradient(circle at 15% 25%, #ffd900d0 2px, transparent 12px),
+        radial-gradient(circle at 85% 65%, #00ffff88 5px, transparent 14px),
+        radial-gradient(circle at 35% 95%, #ff69b4b0 4px, transparent 10px),
+        radial-gradient(circle at 95% 15%, #ffffff 1.5px, transparent 6px),
+        radial-gradient(circle at 5% 85%, #ffffff 1px, transparent 5px);
     background-repeat: repeat;
     background-size: 200px 200px;
 
