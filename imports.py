@@ -5,6 +5,7 @@ import nltk
 import folium
 import branca
 import vincent
+import random
 import contextlib
 import numpy as np
 import pandas as pd
@@ -12,6 +13,7 @@ import pydeck as pdk
 from PIL import Image
 import geopandas as gpd
 from folium import plugins
+from PIL import ImageOps
 import pandas_geojson as pdg
 from datetime import datetime
 import matplotlib.pyplot as plt
@@ -26,7 +28,6 @@ from folium.plugins import HeatMap, HeatMapWithTime
 from bokeh.plotting import figure, show, output_file
 from collections import Counter, OrderedDict, defaultdict
 from bokeh.models import ColumnDataSource, RangeTool, Range1d, HoverTool, BoxAnnotation, Label
-import random
 
 nltk.download('punkt')
 nltk.download('stopwords')
