@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>pydeck</title>
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.13.0/mapbox-gl.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <script src='https://cdn.jsdelivr.net/npm/@deck.gl/jupyter-widget@~9.0.*/dist/index.js'></script>
+    <style>
+    body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#deck-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#deck-container canvas {
+  z-index: 1;
+  background: none;
+}
+    </style>
+  </head>
+  <body>
+    <div id="deck-container">
+    </div>
+  </body>
+  <script>
+    const container = document.getElementById('deck-container');
+    const jsonInput = {
+  "initialViewState": {
+    "latitude": 37.499635308739805,
+    "longitude": -109.62065257840612,
+    "pitch": 30,
+    "zoom": 4
+  },
+  "layers": [
+    {
+      "@@type": "ScatterplotLayer",
+      "data": [
+        {
+          "count": 581,
+          "latitude": 47.582261026886194,
+          "longitude": -122.35698719869103
+        },
+        {
+          "count": 529,
+          "latitude": 40.704167908350385,
+          "longitude": -74.01600847979245
+        },
+        {
+          "count": 475,
+          "latitude": 33.4533963108203,
+          "longitude": -112.0550516994838
+        },
+        {
+          "count": 393,
+          "latitude": 34.056317539680386,
+          "longitude": -118.22028837140907
+        },
+        {
+          "count": 388,
+          "latitude": 36.17246075654864,
+          "longitude": -115.14739583187155
+        },
+        {
+          "count": 362,
+          "latitude": 32.73477686858774,
+          "longitude": -117.13848529318552
+        },
+        {
+          "count": 343,
+          "latitude": 45.54583807420865,
+          "longitude": -122.66856544698358
+        },
+        {
+          "count": 309,
+          "latitude": 29.747863984836115,
+          "longitude": -95.362438305832
+        }
+      ],
+      "getColor": "@@=[255, 0, 0, 160]",
+      "getPosition": "@@=[longitude, latitude]",
+      "getRadius": 10000,
+      "id": "1ccc6ba2-b322-4394-b7b3-4337026056e8",
+      "pickable": true
+    },
+    {
+      "@@type": "ScatterplotLayer",
+      "data": [
+        {
+          "Base Latitude": 47.7233921483,
+          "Base Longitude": -122.714839767,
+          "Base Name": "Bangor WA",
+          "Count": 581.0,
+          "Distance_km": 31.06028348412427,
+          "Hotspot Latitude": 47.582261026886194,
+          "Hotspot Longitude": -122.35698719869103
+        },
+        {
+          "Base Latitude": 47.552709639,
+          "Base Longitude": -122.681322245,
+          "Base Name": "NG Bremerton",
+          "Count": 581.0,
+          "Distance_km": 24.554274038225905,
+          "Hotspot Latitude": 47.582261026886194,
+          "Hotspot Longitude": -122.35698719869103
+        },
+        {
+          "Base Latitude": 47.9883156828,
+          "Base Longitude": -122.223175004,
+          "Base Name": "NAVSTA Everett WA",
+          "Count": 581.0,
+          "Distance_km": 46.24479314744092,
+          "Hotspot Latitude": 47.582261026886194,
+          "Hotspot Longitude": -122.35698719869103
+        },
+        {
+          "Base Latitude": 47.5591924008,
+          "Base Longitude": -122.635482091,
+          "Base Name": "Shipyard Puget Sound",
+          "Count": 581.0,
+          "Distance_km": 21.04981475911401,
+          "Hotspot Latitude": 47.582261026886194,
+          "Hotspot Longitude": -122.35698719869103
+        },
+        {
+          "Base Latitude": 47.5555933853,
+          "Base Longitude": -122.652356505,
+          "Base Name": "Naval Base Kitsap Bremerton WA",
+          "Count": 581.0,
+          "Distance_km": 22.357154182802823,
+          "Hotspot Latitude": 47.582261026886194,
+          "Hotspot Longitude": -122.35698719869103
+        },
+        {
+          "Base Latitude": 47.6974412235,
+          "Base Longitude": -122.621247466,
+          "Base Name": "Keyport NUWC",
+          "Count": 581.0,
+          "Distance_km": 23.580188965671514,
+          "Hotspot Latitude": 47.582261026886194,
+          "Hotspot Longitude": -122.35698719869103
+        },
+        {
+          "Base Latitude": 47.5661084246,
+          "Base Longitude": -122.545637948,
+          "Base Name": "Manchester",
+          "Count": 581.0,
+          "Distance_km": 14.265340206471548,
+          "Hotspot Latitude": 47.582261026886194,
+          "Hotspot Longitude": -122.35698719869103
+        },
+        {
+          "Base Latitude": 40.422044168,
+          "Base Longitude": -74.0704353876,
+          "Base Name": "Waterfront",
+          "Count": 529.0,
+          "Distance_km": 31.70584786547376,
+          "Hotspot Latitude": 40.704167908350385,
+          "Hotspot Longitude": -74.01600847979245
+        },
+        {
+          "Base Latitude": 40.6089967598,
+          "Base Longitude": -74.0294500589,
+          "Base Name": "Fort Hamilton",
+          "Count": 529.0,
+          "Distance_km": 10.643120176980498,
+          "Hotspot Latitude": 40.704167908350385,
+          "Hotspot Longitude": -74.01600847979245
+        },
+        {
+          "Base Latitude": 40.3070528778,
+          "Base Longitude": -74.0583806661,
+          "Base Name": "Fort Monmouth Main Post",
+          "Count": 529.0,
+          "Distance_km": 44.30225429713579,
+          "Hotspot Latitude": 40.704167908350385,
+          "Hotspot Longitude": -74.01600847979245
+        },
+        {
+          "Base Latitude": 40.5814831188,
+          "Base Longitude": -73.8816296342,
+          "Base Name": "Brooklyn NY",
+          "Count": 529.0,
+          "Distance_km": 17.738405055191887,
+          "Hotspot Latitude": 40.704167908350385,
+          "Hotspot Longitude": -74.01600847979245
+        },
+        {
+          "Base Latitude": 33.538406301,
+          "Base Longitude": -112.321762273,
+          "Base Name": "Luke Waste Annex",
+          "Count": 475.0,
+          "Distance_km": 26.476498999450012,
+          "Hotspot Latitude": 33.4533963108203,
+          "Hotspot Longitude": -112.0550516994838
+        },
+        {
+          "Base Latitude": 33.4680085999,
+          "Base Longitude": -111.961734255,
+          "Base Name": "NG Papago Military Reservation",
+          "Count": 475.0,
+          "Distance_km": 8.807844999619794,
+          "Hotspot Latitude": 33.4533963108203,
+          "Hotspot Longitude": -112.0550516994838
+        },
+        {
+          "Base Latitude": 33.5362891829,
+          "Base Longitude": -112.374183665,
+          "Base Name": "Luke AFB",
+          "Count": 475.0,
+          "Distance_km": 30.995121555274075,
+          "Hotspot Latitude": 33.4533963108203,
+          "Hotspot Longitude": -112.0550516994838
+        },
+        {
+          "Base Latitude": 33.4258330523,
+          "Base Longitude": -112.011682902,
+          "Base Name": "Sky Harbor IAP",
+          "Count": 475.0,
+          "Distance_km": 5.058375817284139,
+          "Hotspot Latitude": 33.4533963108203,
+          "Hotspot Longitude": -112.0550516994838
+        },
+        {
+          "Base Latitude": 33.7504659919,
+          "Base Longitude": -118.064188826,
+          "Base Name": "NAVWPNSTA Seal Beach",
+          "Count": 393.0,
+          "Distance_km": 36.93458067191643,
+          "Hotspot Latitude": 34.056317539680386,
+          "Hotspot Longitude": -118.22028837140907
+        },
+        {
+          "Base Latitude": 33.7912112939,
+          "Base Longitude": -118.052226791,
+          "Base Name": "NG TS AFRC Los Alamitos",
+          "Count": 393.0,
+          "Distance_km": 33.30816758721958,
+          "Hotspot Latitude": 34.056317539680386,
+          "Hotspot Longitude": -118.22028837140907
+        },
+        {
+          "Base Latitude": 33.8931849532,
+          "Base Longitude": -118.070170962,
+          "Base Name": "Norwalk 2",
+          "Count": 393.0,
+          "Distance_km": 22.81799052535097,
+          "Hotspot Latitude": 34.056317539680386,
+          "Hotspot Longitude": -118.22028837140907
+        },
+        {
+          "Base Latitude": 33.858772816,
+          "Base Longitude": -118.235754982,
+          "Base Name": "Los Angeles Air Force Annex No4",
+          "Count": 393.0,
+          "Distance_km": 22.01224152257684,
+          "Hotspot Latitude": 34.056317539680386,
+          "Hotspot Longitude": -118.22028837140907
+        },
+        {
+          "Base Latitude": 33.7420222138,
+          "Base Longitude": -118.233407436,
+          "Base Name": "Long Beach Fuel Complex",
+          "Count": 393.0,
+          "Distance_km": 34.96901421067735,
+          "Hotspot Latitude": 34.056317539680386,
+          "Hotspot Longitude": -118.22028837140907
+        },
+        {
+          "Base Latitude": 33.9189436972,
+          "Base Longitude": -118.381099896,
+          "Base Name": "Los Angeles AFB",
+          "Count": 393.0,
+          "Distance_km": 21.287549543538844,
+          "Hotspot Latitude": 34.056317539680386,
+          "Hotspot Longitude": -118.22028837140907
+        },
+        {
+          "Base Latitude": 33.7730532491,
+          "Base Longitude": -118.301027333,
+          "Base Name": "San Pedro Fuel Depot",
+          "Count": 393.0,
+          "Distance_km": 32.366703947287014,
+          "Hotspot Latitude": 34.056317539680386,
+          "Hotspot Longitude": -118.22028837140907
+        },
+        {
+          "Base Latitude": 36.0173819633,
+          "Base Longitude": -115.200674517,
+          "Base Name": "NG Anthony Cometa Complex",
+          "Count": 388.0,
+          "Distance_km": 17.896115802811316,
+          "Hotspot Latitude": 36.17246075654864,
+          "Hotspot Longitude": -115.14739583187155
+        },
+        {
+          "Base Latitude": 36.2384449698,
+          "Base Longitude": -115.135834801,
+          "Base Name": "Nellis Annex",
+          "Count": 388.0,
+          "Distance_km": 7.410071924460523,
+          "Hotspot Latitude": 36.17246075654864,
+          "Hotspot Longitude": -115.14739583187155
+        },
+        {
+          "Base Latitude": 36.2692051709,
+          "Base Longitude": -114.98483901,
+          "Base Name": "Nellis AFB",
+          "Count": 388.0,
+          "Distance_km": 18.12091411799158,
+          "Hotspot Latitude": 36.17246075654864,
+          "Hotspot Longitude": -115.14739583187155
+        },
+        {
+          "Base Latitude": 36.2909200901,
+          "Base Longitude": -115.041255853,
+          "Base Name": "NG Floyd Edsall Training Center",
+          "Count": 388.0,
+          "Distance_km": 16.25223950990701,
+          "Hotspot Latitude": 36.17246075654864,
+          "Hotspot Longitude": -115.14739583187155
+        },
+        {
+          "Base Latitude": 32.7000190451,
+          "Base Longitude": -117.207088939,
+          "Base Name": "NAVBASE Coronado",
+          "Count": 362.0,
+          "Distance_km": 7.491964755279677,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.7486743431,
+          "Base Longitude": -117.197008871,
+          "Base Name": "Old Town Site 1",
+          "Count": 362.0,
+          "Distance_km": 5.687550852518033,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.7136561362,
+          "Base Longitude": -117.172024897,
+          "Base Name": "Broadway Complex",
+          "Count": 362.0,
+          "Distance_km": 3.9191181829328476,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.8048190699,
+          "Base Longitude": -117.093958022,
+          "Base Name": "Mission Gorge Rec Area",
+          "Count": 362.0,
+          "Distance_km": 8.83123418242528,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.6678869196,
+          "Base Longitude": -117.157059858,
+          "Base Name": "Amphib Base Coronado East",
+          "Count": 362.0,
+          "Distance_km": 7.638190352574503,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.6962020716,
+          "Base Longitude": -117.245822433,
+          "Base Name": "NAVBASE Point Loma",
+          "Count": 362.0,
+          "Distance_km": 10.919688275737045,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.8768862606,
+          "Base Longitude": -117.085904098,
+          "Base Name": "MCAS Miramar",
+          "Count": 362.0,
+          "Distance_km": 16.54836193630759,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.6713189664,
+          "Base Longitude": -117.167654101,
+          "Base Name": "Amphib Base Coronado West",
+          "Count": 362.0,
+          "Distance_km": 7.565639077652101,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.7262714976,
+          "Base Longitude": -117.145036279,
+          "Base Name": "Balboa Hospital",
+          "Count": 362.0,
+          "Distance_km": 1.1269191999145203,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.7293500339,
+          "Base Longitude": -117.220992794,
+          "Base Name": "Former NTC",
+          "Count": 362.0,
+          "Distance_km": 7.741149807928275,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.6757646692,
+          "Base Longitude": -117.122748674,
+          "Base Name": "NAVBASE San Diego CA",
+          "Count": 362.0,
+          "Distance_km": 6.725026190235955,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.5969675488,
+          "Base Longitude": -117.128170944,
+          "Base Name": "Silver Strand South",
+          "Count": 362.0,
+          "Distance_km": 15.354083691658621,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.6677774858,
+          "Base Longitude": -117.240517357,
+          "Base Name": "SPAWARS South",
+          "Count": 362.0,
+          "Distance_km": 12.109954152217524,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.5624031522,
+          "Base Longitude": -117.112009859,
+          "Base Name": "Imperial Beach NOLF",
+          "Count": 362.0,
+          "Distance_km": 19.326701535221005,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.7246963035,
+          "Base Longitude": -117.218431918,
+          "Base Name": "Harbor Drive",
+          "Count": 362.0,
+          "Distance_km": 7.561789505792875,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.7401689479,
+          "Base Longitude": -117.197685657,
+          "Base Name": "MCRD San Diego",
+          "Count": 362.0,
+          "Distance_km": 5.569519982812935,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.6848793364,
+          "Base Longitude": -117.119468049,
+          "Base Name": "Dryside",
+          "Count": 362.0,
+          "Distance_km": 5.826667413930235,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 32.6720920869,
+          "Base Longitude": -117.113270451,
+          "Base Name": "National City",
+          "Count": 362.0,
+          "Distance_km": 7.35869714834768,
+          "Hotspot Latitude": 32.73477686858774,
+          "Hotspot Longitude": -117.13848529318552
+        },
+        {
+          "Base Latitude": 45.5783794843,
+          "Base Longitude": -122.595521925,
+          "Base Name": "Portland IAP ANG",
+          "Count": 343.0,
+          "Distance_km": 6.740174750249162,
+          "Hotspot Latitude": 45.54583807420865,
+          "Hotspot Longitude": -122.66856544698358
+        },
+        {
+          "Base Latitude": 45.412447609,
+          "Base Longitude": -122.557961254,
+          "Base Name": "NG Camp Withycombe Clackamas",
+          "Count": 343.0,
+          "Distance_km": 17.15696651943719,
+          "Hotspot Latitude": 45.54583807420865,
+          "Hotspot Longitude": -122.66856544698358
+        },
+        {
+          "Base Latitude": 29.6160801417,
+          "Base Longitude": -95.1704814148,
+          "Base Name": "Ellington Field",
+          "Count": 309.0,
+          "Distance_km": 23.634897114413754,
+          "Hotspot Latitude": 29.747863984836115,
+          "Hotspot Longitude": -95.362438305832
+        }
+      ],
+      "getColor": "@@=[0, 0, 255, 160]",
+      "getPosition": "@@=[Base Longitude, Base Latitude]",
+      "getRadius": 8000,
+      "id": "155aa669-c9bc-4088-aa42-264cff44d6de",
+      "pickable": true
+    }
+  ],
+  "mapProvider": "carto",
+  "mapStyle": "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+  "views": [
+    {
+      "@@type": "MapView",
+      "controller": true
+    }
+  ]
+};
+    const tooltip = {'text': '{Base Name} (Distance: {Distance_km} km)'};
+    const customLibraries = null;
+    const configuration = null;
+
+    const deckInstance = createDeck({
+                  container,
+      jsonInput,
+      tooltip,
+      customLibraries,
+      configuration
+    });
+
+  </script>
+</html>
