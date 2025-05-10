@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+seaborn
+nltk
+folium
+branca
+vincent
+pydeck
+pillow
+geopandas
+pandas-geojson
+bokeh
+wordcloud
+geopy
+h3
+setuptools
