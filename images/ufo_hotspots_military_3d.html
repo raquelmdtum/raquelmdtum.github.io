@@ -33,15 +33,19 @@
     const container = document.getElementById('deck-container');
     const jsonInput = {
   "initialViewState": {
-    "latitude": 37.5,
-    "longitude": -96,
+    "bearing": 0,
+    "latitude": 38.35791106916178,
+    "longitude": -95.71086997816445,
+    "maxZoom": 15,
+    "minZoom": 2,
     "pitch": 45,
-    "zoom": 4
+    "zoom": 3
   },
   "layers": [
     {
-      "@@type": "ScatterplotLayer",
+      "@@type": "HexagonLayer",
       "autoHighlight": true,
+      "coverage": 1,
       "data": [
         {
           "count": 581,
@@ -82,16 +86,206 @@
           "count": 309,
           "latitude": 29.747863984836115,
           "longitude": -95.362438305832
+        },
+        {
+          "count": 289,
+          "latitude": 41.8341766502975,
+          "longitude": -87.65227474371528
+        },
+        {
+          "count": 245,
+          "latitude": 32.23771878788312,
+          "longitude": -110.95157031240682
+        },
+        {
+          "count": 238,
+          "latitude": 25.758823498098938,
+          "longitude": -80.19908411964315
+        },
+        {
+          "count": 228,
+          "latitude": 28.516325438250796,
+          "longitude": -81.36708376016558
+        },
+        {
+          "count": 221,
+          "latitude": 35.0640895393988,
+          "longitude": -106.65091715902898
+        },
+        {
+          "count": 217,
+          "latitude": 30.276552903546023,
+          "longitude": -97.76681177354344
+        },
+        {
+          "count": 215,
+          "latitude": 38.612228453062706,
+          "longitude": -121.4991703225202
+        },
+        {
+          "count": 192,
+          "latitude": 37.77351509723814,
+          "longitude": -122.4182710369247
+        },
+        {
+          "count": 191,
+          "latitude": 37.36224706282535,
+          "longitude": -121.90360686812292
+        },
+        {
+          "count": 182,
+          "latitude": 39.740230985414236,
+          "longitude": -104.98809672500511
+        },
+        {
+          "count": 174,
+          "latitude": 29.43622502122731,
+          "longitude": -98.46114573500672
+        },
+        {
+          "count": 164,
+          "latitude": 33.70399874934061,
+          "longitude": -78.88657035181483
+        },
+        {
+          "count": 157,
+          "latitude": 38.63961948501332,
+          "longitude": -90.17410492963077
+        },
+        {
+          "count": 155,
+          "latitude": 39.976999638586065,
+          "longitude": -83.00072459936047
+        },
+        {
+          "count": 145,
+          "latitude": 32.77713570978708,
+          "longitude": -96.76422451940952
+        },
+        {
+          "count": 143,
+          "latitude": 33.42639962648137,
+          "longitude": -111.85890651640175
+        },
+        {
+          "count": 141,
+          "latitude": 35.22944925652842,
+          "longitude": -80.85949687359555
+        },
+        {
+          "count": 139,
+          "latitude": 47.654599753658204,
+          "longitude": -117.46120288185628
+        },
+        {
+          "count": 138,
+          "latitude": 39.77974856217695,
+          "longitude": -86.18148281866742
+        },
+        {
+          "count": 138,
+          "latitude": 45.65318820256383,
+          "longitude": -122.62295421526198
+        },
+        {
+          "count": 136,
+          "latitude": 47.23210785770304,
+          "longitude": -122.44070211672019
+        },
+        {
+          "count": 135,
+          "latitude": 30.357720830434257,
+          "longitude": -81.65328241178348
+        },
+        {
+          "count": 134,
+          "latitude": 38.81549685034123,
+          "longitude": -104.85408927406456
+        },
+        {
+          "count": 133,
+          "latitude": 40.758415853092764,
+          "longitude": -111.8680565905553
+        },
+        {
+          "count": 133,
+          "latitude": 41.54903822313966,
+          "longitude": -87.77212963264061
+        },
+        {
+          "count": 131,
+          "latitude": 27.94191603183761,
+          "longitude": -82.4730200936806
+        },
+        {
+          "count": 130,
+          "latitude": 38.250813300499225,
+          "longitude": -85.79160543624795
+        },
+        {
+          "count": 119,
+          "latitude": 41.233932477140634,
+          "longitude": -95.92768835253759
+        },
+        {
+          "count": 117,
+          "latitude": 40.421920608451565,
+          "longitude": -80.0036658185886
+        },
+        {
+          "count": 114,
+          "latitude": 36.75738338850421,
+          "longitude": -119.78336116169501
+        },
+        {
+          "count": 114,
+          "latitude": 39.930176347179064,
+          "longitude": -75.16417687008371
+        },
+        {
+          "count": 114,
+          "latitude": 39.54162116056491,
+          "longitude": -119.82962417231865
+        },
+        {
+          "count": 112,
+          "latitude": 43.62843495454611,
+          "longitude": -116.19871096273353
+        },
+        {
+          "count": 109,
+          "latitude": 33.532550483189155,
+          "longitude": -111.8795180753338
+        },
+        {
+          "count": 108,
+          "latitude": 36.15062842602816,
+          "longitude": -86.76393775991572
+        },
+        {
+          "count": 107,
+          "latitude": 42.30200974663472,
+          "longitude": -89.09564164024006
+        },
+        {
+          "count": 107,
+          "latitude": 39.146578999762276,
+          "longitude": -84.47504800132877
         }
       ],
-      "getFillColor": "@@=[255, 0, 0, 180]",
-      "getLineColor": "@@=[255, 255, 255]",
+      "elevationAggregation": "@@=SUM",
+      "elevationRange": [
+        0,
+        5000
+      ],
+      "elevationScale": 200,
+      "extruded": true,
+      "getColorWeight": "@@=count",
+      "getElevationWeight": "@@=count",
       "getPosition": "@@=[longitude, latitude]",
-      "getRadius": 15000,
-      "id": "924f71ae-25bd-4bdf-aab3-fa4eb720efa0",
-      "lineWidthMinPixels": 2,
+      "id": "beabe6b6-e500-4146-b6f5-84e165ca93a7",
       "pickable": true,
-      "stroke": true
+      "radius": 10000
     },
     {
       "@@type": "IconLayer",
@@ -358,10 +552,298 @@
           "base_lon": -122.595521925,
           "base_name": "Portland IAP ANG",
           "base_state": "Oregon",
-          "distance_km": 6.7528624670945705,
+          "distance_km": 6.752862467094923,
           "hotspot_count": 343.0,
           "hotspot_lat": 45.54583807420865,
           "hotspot_lon": -122.66856544698358,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 30.3186106075,
+          "base_lon": -97.7615720588,
+          "base_name": "NG Camp Mabry",
+          "base_state": "Texas",
+          "distance_km": 4.689577377812769,
+          "hotspot_count": 217.0,
+          "hotspot_lat": 30.276552903546023,
+          "hotspot_lon": -97.76681177354344,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 29.4595308379,
+          "base_lon": -98.4407138221,
+          "base_name": "JBSA Sam Houston",
+          "base_state": "Texas",
+          "distance_km": 3.25616190935091,
+          "hotspot_count": 174.0,
+          "hotspot_lat": 29.43622502122731,
+          "hotspot_lon": -98.46114573500672,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 29.4318157845,
+          "base_lon": -98.3795077904,
+          "base_name": "NG Martindale - AASF",
+          "base_state": "Texas",
+          "distance_km": 7.936316994552652,
+          "hotspot_count": 174.0,
+          "hotspot_lat": 29.43622502122731,
+          "hotspot_lon": -98.46114573500672,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 29.4600614664,
+          "base_lon": -98.4165527202,
+          "base_name": "Medical Center Annex",
+          "base_state": "Texas",
+          "distance_km": 5.06921231396302,
+          "hotspot_count": 174.0,
+          "hotspot_lat": 29.43622502122731,
+          "hotspot_lon": -98.46114573500672,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 38.5912194524,
+          "base_lon": -90.2083428154,
+          "base_name": "St Louis Air Force Station",
+          "base_state": "Missouri",
+          "distance_km": 6.144806541355388,
+          "hotspot_count": 157.0,
+          "hotspot_lat": 38.63961948501332,
+          "hotspot_lon": -90.17410492963077,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 39.9796100871,
+          "base_lon": -82.8985258467,
+          "base_name": "Defense Supply Center Columbus",
+          "base_state": "Ohio",
+          "distance_km": 8.734716917797764,
+          "hotspot_count": 155.0,
+          "hotspot_lat": 39.976999638586065,
+          "hotspot_lon": -83.00072459936047,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 35.216336113,
+          "base_lon": -80.9298620418,
+          "base_name": "Charlotte/Douglas IAP",
+          "base_state": "North Carolina",
+          "distance_km": 6.569161923578673,
+          "hotspot_count": 141.0,
+          "hotspot_lat": 35.22944925652842,
+          "hotspot_lon": -80.85949687359555,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 39.7443784632,
+          "base_lon": -86.2281648634,
+          "base_name": "NG Indianapolis 38 ID",
+          "base_state": "Indiana",
+          "distance_km": 5.605689254813426,
+          "hotspot_count": 138.0,
+          "hotspot_lat": 39.77974856217695,
+          "hotspot_lon": -86.18148281866742,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 45.5783794843,
+          "base_lon": -122.595521925,
+          "base_name": "Portland IAP ANG",
+          "base_state": "Oregon",
+          "distance_km": 8.585421833069464,
+          "hotspot_count": 138.0,
+          "hotspot_lat": 45.65318820256383,
+          "hotspot_lon": -122.62295421526198,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 30.405301276,
+          "base_lon": -81.6216735389,
+          "base_name": "Jacksonville FL Maint",
+          "base_state": "Florida",
+          "distance_km": 6.087085668255169,
+          "hotspot_count": 135.0,
+          "hotspot_lat": 30.357720830434257,
+          "hotspot_lon": -81.65328241178348,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 30.4001829676,
+          "base_lon": -81.6274334623,
+          "base_name": "FLC Fuel Depot Heckscher",
+          "base_state": "Florida",
+          "distance_km": 5.322747510246639,
+          "hotspot_count": 135.0,
+          "hotspot_lat": 30.357720830434257,
+          "hotspot_lon": -81.65328241178348,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 40.7896351662,
+          "base_lon": -111.956659778,
+          "base_name": "Salt Lake City IAP",
+          "base_state": "Utah",
+          "distance_km": 8.244418169768894,
+          "hotspot_count": 133.0,
+          "hotspot_lat": 40.758415853092764,
+          "hotspot_lon": -111.8680565905553,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 36.766535122,
+          "base_lon": -119.71000318,
+          "base_name": "Fresno Yosemite International ANG",
+          "base_state": "California",
+          "distance_km": 6.628282861529945,
+          "hotspot_count": 114.0,
+          "hotspot_lat": 36.75738338850421,
+          "hotspot_lon": -119.78336116169501,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 39.8917550243,
+          "base_lon": -75.1787438843,
+          "base_name": "Det Phil Pny Annex",
+          "base_state": "Pennsylvania",
+          "distance_km": 4.444143961650773,
+          "hotspot_count": 114.0,
+          "hotspot_lat": 39.930176347179064,
+          "hotspot_lon": -75.16417687008371,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 39.5001625435,
+          "base_lon": -119.775127354,
+          "base_name": "Reno Tahoe IAP",
+          "base_state": "Nevada",
+          "distance_km": 6.5685881818287974,
+          "hotspot_count": 114.0,
+          "hotspot_lat": 39.54162116056491,
+          "hotspot_lon": -119.82962417231865,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 43.5568774906,
+          "base_lon": -116.222478963,
+          "base_name": "Boise Air Terminal",
+          "base_state": "Idaho",
+          "distance_km": 8.178739010210407,
+          "hotspot_count": 112.0,
+          "hotspot_lat": 43.62843495454611,
+          "hotspot_lon": -116.19871096273353,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 36.1109974019,
+          "base_lon": -86.6749742271,
+          "base_name": "Nashville IAP",
+          "base_state": "Tennessee",
+          "distance_km": 9.135993955952141,
+          "hotspot_count": 108.0,
+          "hotspot_lat": 36.15062842602816,
+          "hotspot_lon": -86.76393775991572,
+          "icon_data": {
+            "anchorY": 128,
+            "height": 128,
+            "url": "https://img.icons8.com/plasticine/100/000000/marker.png",
+            "width": 128
+          }
+        },
+        {
+          "base_lat": 36.0990427201,
+          "base_lon": -86.7588114945,
+          "base_name": "NG Nashville",
+          "base_state": "Tennessee",
+          "distance_km": 5.742589831972468,
+          "hotspot_count": 108.0,
+          "hotspot_lat": 36.15062842602816,
+          "hotspot_lon": -86.76393775991572,
           "icon_data": {
             "anchorY": 128,
             "height": 128,
@@ -372,7 +854,7 @@
       ],
       "getIcon": "@@=icon_data",
       "getPosition": "@@=[base_lon, base_lat]",
-      "id": "3b1214a5-b65c-4e28-b76e-32dd608150a5",
+      "id": "e49d1a83-394b-4cd5-a458-5edcb49b0bb2",
       "pickable": true,
       "sizeScale": 40
     }
@@ -386,7 +868,7 @@
     }
   ]
 };
-    const tooltip = {'text': '{base_name}'};
+    const tooltip = {'text': '{base_name}\n Count: {elevationValue}'};
     const customLibraries = null;
     const configuration = null;
 

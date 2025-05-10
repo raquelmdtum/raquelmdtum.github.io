@@ -7,6 +7,7 @@ import branca
 import vincent
 import random
 import contextlib
+import matplotlib
 import numpy as np
 import pandas as pd
 import pydeck as pdk
@@ -17,6 +18,7 @@ from PIL import ImageOps
 import pandas_geojson as pdg
 from datetime import datetime
 import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 from wordcloud import WordCloud
 from bokeh.layouts import column
 from nltk.corpus import stopwords
