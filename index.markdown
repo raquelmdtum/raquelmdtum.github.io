@@ -24,7 +24,7 @@ layout: home
     <ul>
       <li>Where are UFO sightings most commonly reported in the U.S.?</li>
       <li>How have UFO reports changed over time, and what external factors might influence these trends?</li>
-      <li>What do people typically report seeing—what shapes, movements, or experiences recur?</li>
+      <li>What do pe ople typically report seeing—what shapes, movements, or experiences recur?</li>
       <li>Could movie releases or news coverage be influencing sighting reports? COULD BE FUN </li>
     </ul>
 
