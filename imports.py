@@ -1,4 +1,5 @@
 import os
+import h3
 import json
 import nltk
 import folium
@@ -17,6 +18,7 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from bokeh.layouts import column
 from nltk.corpus import stopwords
+from geopy.distance import geodesic
 from bokeh.palettes import Category10
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
