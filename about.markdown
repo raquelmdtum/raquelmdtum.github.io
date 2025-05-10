@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About me
+title: About Us
 permalink: /about/
 ---
 <head>
     <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
 </head>
+
 <body>
 <div class="main-content">
 
@@ -15,6 +16,7 @@ permalink: /about/
             <li>Raquel Marques: s243636
             <li>Sree Keerthi Desu: s243933
         </ul>
+        
 </div>
 </body>
   

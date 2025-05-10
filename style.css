@@ -6,7 +6,7 @@
     color: #ffffff !important;
     font-size: 16px;
     font-family: 'Allerta'; 
-    margin-right: 95px;
+    margin-right: 165px;
   }
   /*Navigation Bar in hover */
   .site-header a:hover, nav a:hover, header a:hover {
@@ -22,7 +22,7 @@
     text-align: center;
     width: 100%;
     max-width: 1300px;
-    background-color: rgb(9, 27, 41);
+    background-color: rgb(3, 21, 37);
     padding: 2rem;
     box-sizing: border-box;
     margin-bottom: 0px;
@@ -35,7 +35,7 @@ body {
     background-color: rgb(3, 21, 37);
     background-image:
         radial-gradient(circle at 10% 20%, #ffd900d0 4px, transparent 5px),
-        radial-gradient(circle at 90% 70%, #00ffff88 10px, transparent 6px),
+        radial-gradient(circle at 30% 35%, #00ffff88 10px, transparent 6px),
         radial-gradient(circle at 30% 95%, #ff69b4b0 7.5px, transparent 5px),
         radial-gradient(circle at 95% 10%, #ffffff 2px, transparent 2.5px),
         radial-gradient(circle at 50% 40%, #88cc62 6px, transparent 5px),
@@ -53,7 +53,7 @@ body {
 /* For text containers*/
 .main-content {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1450px;
     background-color: rgb(3, 21, 37); 
     padding: 2rem;
     color: white;
