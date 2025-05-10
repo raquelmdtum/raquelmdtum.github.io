@@ -1,52 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta&family=Londrina+Solid&display=swap');
 
-/*body {
-    
-    background-color:rgb(9, 27, 41);
-    background-image:
-        radial-gradient(circle at 20% 30%, #ffd900d0 4px, transparent 5px),
-        radial-gradient(circle at 80% 60%, #00ffff88 10px, transparent 6px),
-        radial-gradient(circle at 40% 90%, #ff69b4b0 7.5px, transparent 5px),
-        radial-gradient(circle at 90% 20%, #ffffff 2px, transparent 2.5px),
-        radial-gradient(circle at 10% 80%, #ffffff 1.5px, transparent 2px);
-    background-repeat: repeat;
-    background-size: 200px 200px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Allerta'; font-size: 15px; color: rgb(255, 255, 255); 
-}
-*/
 
-body {
-    margin: 0;
-    background-color: rgb(3, 21, 37);
-    background-image:
-        radial-gradient(circle at 10% 20%, #ffd900d0 4px, transparent 5px),
-        radial-gradient(circle at 90% 70%, #00ffff88 10px, transparent 6px),
-        radial-gradient(circle at 30% 95%, #ff69b4b0 7.5px, transparent 5px),
-        radial-gradient(circle at 95% 10%, #ffffff 2px, transparent 2.5px),
-        radial-gradient(circle at 5% 90%, #ffffff 1.5px, transparent 2px);
-    background-repeat: repeat;
-    background-size: 450px 450px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.main-content {
-    width: 100%;
-    max-width: 1300px;
-    background-color: rgb(3, 21, 37); /* same as body to blend in */
-    padding: 2rem;
-    color: white;
-    font-family: 'Allerta';
-    font-size: 15px;
-    box-sizing: border-box;
-}
+/*Navigation Bar */
+.site-header a, nav a, header a {
+    color: #ffffff !important;
+    font-size: 16px;
+    font-family: 'Allerta'; 
+    margin-right: 95px;
+  }
+  /*Navigation Bar in hover */
+  .site-header a:hover, nav a:hover, header a:hover {
+    color: #ffffff !important;
+  }
 
 
+/*Header*/
 .post-header {
     color: rgb(252, 252, 252);
     font-family: 'Londrina Solid';
@@ -57,20 +25,43 @@ body {
     background-color: rgb(9, 27, 41);
     padding: 2rem;
     box-sizing: border-box;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
+/*Main Body (Background)*/
+body {
+    margin: 0;
+    background-color: rgb(3, 21, 37);
+    background-image:
+        radial-gradient(circle at 10% 20%, #ffd900d0 4px, transparent 5px),
+        radial-gradient(circle at 90% 70%, #00ffff88 10px, transparent 6px),
+        radial-gradient(circle at 30% 95%, #ff69b4b0 7.5px, transparent 5px),
+        radial-gradient(circle at 95% 10%, #ffffff 2px, transparent 2.5px),
+        radial-gradient(circle at 50% 40%, #88cc62 6px, transparent 5px),
+        radial-gradient(circle at 5% 90%, #ffffff 1.5px, transparent 2px);
+    background-repeat: repeat;
+    background-size: 450px 450px;
 
-
-/*Header */
-.site-header a, nav a, header a {
-  color: #ffffff !important;
-  font-size: 16px;
-  font-family: 'Allerta'; 
-  margin-right: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
 }
-/*Header in hover */
-.site-header a:hover, nav a:hover, header a:hover {
-  color: #ffffff !important;
+
+/* For text containers*/
+.main-content {
+    width: 100%;
+    max-width: 1300px;
+    background-color: rgb(3, 21, 37); 
+    padding: 2rem;
+    color: white;
+    font-family: 'Allerta';
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding-top: 20px;
 }
 
 /*Footer */
@@ -83,15 +74,24 @@ body {
     text-decoration: none;
 }
 
+
+
+
+
+
+
+/*
 iframe {
-    display: block; /* Show*/
+    display: block;
 
 }
 
 iframe.active {
-    display: block; /* Show*/
+    display: block; 
 
 }
+*/
+
 
 /*button{
     background-color: rgb(170, 186, 230);

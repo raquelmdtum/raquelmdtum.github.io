@@ -24,6 +24,7 @@ from folium.plugins import HeatMap, HeatMapWithTime
 from bokeh.plotting import figure, show, output_file
 from collections import Counter, OrderedDict, defaultdict
 from bokeh.models import ColumnDataSource, RangeTool, Range1d, HoverTool, BoxAnnotation, Label
+import random
 
 nltk.download('punkt')
 nltk.download('stopwords')
