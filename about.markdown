@@ -10,9 +10,11 @@ permalink: /about/
 <div class="main-content">
 
         By Group 53. Members:
-        - Inês Tacanho: s232669  
-        - Raquel Marques: s243636
-        - Sree Keerthi Desu: s243933
+        <ul>
+            <li>Inês Tacanho: s232669  
+            <li>Raquel Marques: s243636
+            <li>Sree Keerthi Desu: s243933
+        </ul>
 </div>
 </body>
   
