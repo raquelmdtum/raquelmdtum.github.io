@@ -17,22 +17,22 @@
 /*Header*/
 .post-header {
     color: rgb(252, 252, 252);
-    font-family: 'Londrina Solid';
+    /* font-family: 'Londrina Solid'; */
     font-size: 50px;
     text-align: center;
     width: 100%;
     max-width: 1300px;
-    background-color: rgb(3, 21, 37);
+    background-color: rgb(44,53,60);
     padding: 2rem;
     box-sizing: border-box;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 2px; /*CHANGED*/
+    padding-bottom: 2rem; /*CHANGED*/
 }
 
 /*Main Body (Background)*/
 body {
     margin: 0;
-    background-color: rgb(3, 21, 37);
+    background-color: rgb(44,53,60);
     background-image:
         radial-gradient(circle at 10% 20%, #ffd900d0 4px, transparent 5px),
         radial-gradient(circle at 30% 35%, #00ffff88 10px, transparent 6px),
@@ -54,7 +54,7 @@ body {
 .main-content {
     width: 100%;
     max-width: 1450px;
-    background-color: rgb(3, 21, 37); 
+    background-color: rgb(44,53,60); 
     padding: 2rem;
     color: white;
     font-family: 'Allerta';

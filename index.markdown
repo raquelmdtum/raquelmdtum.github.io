@@ -13,6 +13,9 @@ layout: home
     <h1 class="post-title">UFO Sightings through time across the USA </h1>
 </header>
 
+<!--CHANGED-->
+<hr />
+
 <body>
   <div class="main-content">
     For decades, UFO sightings have captured the imagination of people all over the world. What once seemed like fantastical stories of strange lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors lies a wealth of data. In this project, we analyze UFO sighting data from across the United States to explore how these phenomena are distributed in space, time, and human description.
@@ -35,19 +38,22 @@ layout: home
   </div>
 
   <div>
-    <iframe id="3d_map" src="{{ site.baseurl }}images/3d_ufo_sightings_map.html" width="100%" height="450px" title="3D Mapping of sightings"></iframe>
+    <iframe id="3d_map" src="{{ site.baseurl }}images/3d_ufo_sightings_map.html" width="100%" height="450px" title="3D Mapping of sightings" frameBorder="0"></iframe>
   </div>
 
   <br>
 
     
   <div class="main-content">
-    We are able to notice areas like southern California and Arizona and North Washington showing more concentrated sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to UFO encounters?
+    We are able to notice areas like southern California, Arizona, and North Washington showing more concentrated sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to UFO encounters?
     <br>
     When cross-referenced with U.S. population density in the BELOW GRAPH, there is a clear correlation: more populous areas tend to report more sightings. However, some regions—such as parts of rural Washington—exceed expectations, suggesting that other factors like local culture, visibility, or even regional belief systems might play a role.
     <br>
     <br>
-    Here: <b> (TO ADD)</b>
+    Here: 
+    <div>
+      <iframe id="pop_densities" src="{{ site.baseurl }}images/ufo_hotspots_population_densities_3d.html" width="100%" height="450px" title="3DMapping of the hotspots with the population densities" frameBorder="0"></iframe>
+    </div>
     <br>
     To explore this further, we compare UFO hotspots with known U.S. military bases. Interestingly, some clusters appear in proximity to major military installations, raising questions about the influence of aircraft testing or heightened surveillance.
     <br>
@@ -56,7 +62,7 @@ layout: home
 </div>
 
   <div>
-    <iframe id="hotspots_military" src="{{ site.baseurl }}images/ufo_hotspots_military_3d.html" width="100%" height="450px" title="3D Mapping of the hotspots with the "></iframe>
+    <iframe id="hotspots_military" src="{{ site.baseurl }}images/ufo_hotspots_military_3d.html" width="100%" height="450px" title="3D Mapping of the hotspots with the military bases" frameBorder="0"></iframe>
   </div>
 
   <div class="main-content">
