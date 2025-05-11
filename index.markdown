@@ -110,18 +110,53 @@ layout: home
   
   The main takeaway from these fluctuations is that the rise and fall of UFO sightings over time are not merely reflections of growing extraterrestrial curiosity, but also mirror larger socio-political and technological shifts in society. As our ability to share information has evolved, so too has the cultural and public fascination with the unknown.
 
-  <h2>What Are People Seeing?</h2>
+  <h2>3. Visual Patterns: What Are People Seeing?</h2>
 
-  Considering our previous research questions of <em>where</em> and <em>when</em> UFO sightings occur, the want to finalize our analysis with uncovering what people are actually seeing. 
+  Considering our previous research questions of <em>where</em> and <em>when</em> UFO sightings occur, we now turn to <strong>what</strong> people are actually reporting. 
+  Using natural language processing on thousands of eyewitness descriptions, we identified the most common words and connections between words used when recounting UFO encounters.
+  <br>
+  <br>
 
-
-  
+  <img id="wordcloud" src="{{ site.baseurl }}images/ufo_wordcloud.png" width="100%" alt="Word Cloud of UFO Descriptions" style = "float: left; width: 50%; margin-right: 20px; margin-bottom: 10px;"/>
+  The plot on the left is a word cloud which shows the top keywords from these descriptions. Larger words indicate terms that appear more frequently, highlighting common descriptors such as <em>light</em>, <em>bright</em>, <em>formation</em>, and <em>triangle</em>. 
+  Color references like <em>green</em>, <em>red</em>, <em>white</em>, and <em>orange</em> are also prevalent, suggesting varied perceived object appearances. 
+  Words like <em>hovering</em>, <em>flying</em>, and <em>fast</em> indicate the described motion patterns.
+  <br>
+  <br>
+  The following 3D network graph is an expansion of these words to explore how specific terms are connected to particular UFO shapes reported by witnesses.
 
   </div>
 
-  <img id="wordcloud" src="{{ site.baseurl }}images/ufo_wordcloud.png" width="100%" alt="Word Cloud of UFO Descriptions"/>
+  <iframe id="network_3d" src="{{ site.baseurl }}images/ufo_keyword_cooccurrence_network.html" width="100%"  height="650px"  style="border: none;" title="Co-Occurance 3D network"></iframe>
 
-  <iframe id="cooccurrence plot" src="{{ site.baseurl }}images/ufo_keyword_cooccurrence_network.html" width="100%"  height="750px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe>
+  <div class = "main-content">
 
-<url> https://www.nature.com/articles/s41599-024-04182-z
+  The network visualization makes it clear that <b>light</b> is not only the most frequently used word in descriptions — it’s also the most broadly connected across multiple UFO shapes. This suggests that many sightings involve some form of luminous or glowing object, regardless of the specific shape reported.
+
+  In contrast, words like <b>formation</b> and <b>triangle</b> appear visually prominent in the word cloud but have far fewer strong connections in the network (with edge weights around 305). This suggests that although they are relatively common words, they tend to be used in more specific or isolated contexts rather than broadly across different sightings.
+
+  Additionally, some of the more strongly connected terms — those with co-occurrence weights over 1,000 — include generic descriptors like <em>light</em>, <em>red</em>, <em>white</em>, and <em>flashing</em>, reinforcing the idea that many UFO sightings share a core vocabulary centered around luminosity and ambiguity.
+
+  Overall, this textual analysis gives us a richer sense of the UFO narrative landscape: reports are not only visual but also highly descriptive, revealing patterns in color, shape, and behavior that cluster meaningfully across thousands of testimonies.
+
+  <br>
+  <br>
+  <h1>Conclusion</h1>
+
+  This analysis of UFO sightings across the U.S. reveals interesting patterns in location, timing, and descriptions. Geographic hotspots are influenced not just by population density but also by proximity to military bases, like Area 51. Temporal trends show that UFO sightings spike during certain cultural and technological shifts, such as the space race and the rise of the internet. Lastly, common descriptors like "light," "bright" and "triangle" highlight shared perceptions of UFOs across different sightings.
+
+  <br>
+  <br>
+  These patterns suggest that UFO sightings are influenced by cultural, political, and technological factors, and reflect a broader societal fascination with the unknown.
+  <br>
+  <br>  
+  So, after all this, we’ll leave you with one final question:<b>What about you? Did we make you believe? </b> Or at least, believe that there's more to the story than meets the eye?
+
+
+  </div>
+
+  
+
+  <!-- <iframe id="cooccurrence plot" src="{{ site.baseurl }}images/ufo_keyword_cooccurrence_network.html" width="100%"  height="500px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe> -->
+
 </body>
