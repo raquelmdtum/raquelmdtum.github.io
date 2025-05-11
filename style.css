@@ -31,7 +31,7 @@
 
 /*Main Body (Background)*/
 body {
-    margin: 0;
+    width: 100%;
     background-color: rgb(44,53,60);
     background-image:
         radial-gradient(circle at 10% 20%, #ffd900d0 4px, transparent 5px),
@@ -47,23 +47,46 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
     
 }
 
 /* For text containers*/
 .main-content {
     width: 100%;
-    max-width: 1450px;
     background-color: rgb(44,53,60); 
     padding: 2rem;
     color: white;
     font-family: 'Allerta';
     font-size: 15px;
     box-sizing: border-box;
-    margin-top: 0px;
     padding-top: 20px;
     text-align: justify;
 }
+
+.iframe-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1800px;
+    margin: 0 auto 2rem auto;
+    flex-wrap: wrap; /* allows responsiveness */
+}
+
+.iframe-frame {
+flex: 1;
+max-width: 48%;
+}
+
+.iframe-title {
+text-align: center;
+font-size: 16px;
+color: white;
+font-family: 'Allerta', sans-serif;
+margin-bottom: 10px;
+padding: 2rem;
+}
+
 
 /*Footer */
 .site-footer, .site-footer p, .site-footer span {

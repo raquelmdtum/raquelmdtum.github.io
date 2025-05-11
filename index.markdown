@@ -46,33 +46,44 @@ layout: home
   <div class="main-content">
 
   We are able to see some hotspots emerge throughout the country. Regions such as the Desert Southwest - including Southern California and Arizona - Northern Washington and the Greater New York area show higher concentrations of reported sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to have more encounters?
-  <br>
-  <br>
-  <br>
-  
-  <b> DONE UNTIL HERE <b>
-  
-  <br>
-  <br>
-  <br>
+
   <br>
   <br>
 
-  To investigate this further, we added to more aspects to our geographical research. Could these hotspots reflect the population density of those areas, or might their procimity to military bases, like Area 51 in the Dest Southwest, be influencing the frequency of sightings? We will consider hotspots 
+  To investigate this further, we added to more aspects to our geographical research. Could these hotspots reflect the population density of those areas, or might their procimity to military bases, like Area 51 in the Desert Southwest, be influencing the frequency of sightings? We will consider hotspot areas as those with 300+ sightings and plot both the density and military regions in relation to these hotspots.
   <br>
   <br>
+  
+  </div>
 
-    When cross-referenced with U.S. population density in the BELOW GRAPH, there is a clear correlation: more populous areas tend to report more sightings. However, some regions—such as parts of rural Washington—exceed expectations, suggesting that other factors like local culture, visibility, or even regional belief systems might play a role.
-    <br>
-    <br>
-    Here: 
-    <div>
-      <iframe id="population_densities" src="{{ site.baseurl }}images/ufo_hotspots_population_densities_3d.html" width="100%" height="450px" title="3D Mapping of the hotspots with the population densities." frameBorder="0"></iframe>
+  <div class="iframe-wrapper">
+    <div class="iframe-frame">
+        <div class = "iframe-title"> Population Density Near Hotspots </div>
+        <iframe id="population_densities" src="{{ site.baseurl }}images/ufo_hotspots_population_densities_3d.html" width="100%" height="350px" title="3D Mapping of the hotspots with the population densities." frameBorder="0"></iframe>
     </div>
-    <br>
-    To explore this further, we compare UFO hotspots with known U.S. military bases. Interestingly, some clusters appear in proximity to major military installations, raising questions about the influence of aircraft testing or heightened surveillance.
-    <br>
-    <br>
+    <div class="iframe-frame">
+        <div class = "iframe-title"> Military Bases Near Hotspots </div>
+        <iframe id="hotspots_military" src="{{ site.baseurl }}images/ufo_hotspots_military_3d.html" width="100%" height="350px" title="3D Mapping of the hotspots with the military bases." frameBorder="0"></iframe>
+    </div>
+  </div>
+
+
+  
+  <div class="main-content">
+
+  <b> UNTIL HERE </b>
+  The left most graph above overlays population density with the focused hotspots. We can definetly see some correlation within areas like Southern California and the New York greater area. However, parts of the Southwest, including rural Arizona, New Mexico and the parts of the Washington state, don't follow as expected, with 
+  
+   which hav It reveals that many of the hotspots—such as those in Southern California, the New York–New Jersey metro area, and Florida—closely align with densely populated areas. This correlation suggests that more populated regions naturally produce more sightings, likely due to the higher number of potential observers and easier access to technology for reporting incidents.
+  <br>
+  However, this pattern doesn’t fully explain all hotspot areas. For example, parts of the Southwest, including rural Arizona and New Mexico, report a high number of sightings despite relatively lower population densities.
+  <br>
+  <br>
+  To explore another possible explanation, the second map plots the location of military bases relative to the same UFO hotspots. Here, an interesting pattern emerges: many sightings occur near or around military zones—especially in the Desert Southwest, where facilities like Area 51 and Edwards Air Force Base are located. Similar overlaps appear in states like Texas, Florida, and Virginia, all of which host major military operations.
+  <br>
+  This raises the possibility that classified military aircraft or exercises may be mistaken for UFOs. Alternatively, it invites speculation about whether these regions truly experience more unexplained activity.
+  <br>
+  <br>
 
 </div>
 
