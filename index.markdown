@@ -15,22 +15,25 @@ layout: home
 
 <body>
   <div class="main-content">
-    For decades, UFO sightings have captured the imagination of people all over the world. What once seemed like fantastical stories of strange lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors lies a wealth of data. In this project, we analyze UFO sighting data from across the United States to explore how these phenomena are distributed in space, time, and human description.
 
-    For decades, UFO sightings have captured the imagination of people all over the world. What once seemed like fantastical stories of strange lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors, lies a wealth of data. In this project, we dive deep into sighting data of UFOs across the United Statesto to explore how these phenomena are distributed across space, time, and their percpetions to humans.
+  For many years, people from all over wonder if there is anything more out there besides our beloved Earth. Unidentified Flying Objects sights all over the world sparks curiosity if there actually is something beyond our current knowledge. What once seemed like fantastical and crazy storied of strange shapes and lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors lies a wealth of data.
+  <br>
+  <br>
+  In this project, we analyze UFO sighting data from across the United States to uncover patterns in their geographic distribution, timing, and the way witnesses describe these events. To guide us through this project, we will be focused on uncovering these three questions:
 
-    Through visualizations, we aim to answer these questions:
-     
-    <ul>
-      <li><b>Where</b> are UFO sightings most commonly reported in the U.S.?</li>
-      <li><b>When</b> have sightings occurred most often, and how have trends evolved over time?</li>
-      <li><b>What</b> do people describe in these sightings? Are there common shapes, behaviors, or terms?</li>
-    </ul>
+  <ol>
+    <li><b>Where</b> are UFO sightings most commonly reported in the U.S.?</li>
+    <li><b>When</b> have sightings occurred most often, and how have trends evolved over time?</li>
+    <li><b>What</b> do people describe in these sightings? Are there common shapes, behaviors, or terms?</li>
+  </ol>
 
-
-    <h2>Geographic Hotspots: Where Are UFOs Seen?</h2>
-    One of the first things we wanted to understand is where these sightings are happening. By mapping the geographical spread of UFO encounters, we can begin to see clear patterns and "hotspots" where sightings occur more frequently. 
-
+  Through these, we hope to uncover some meaningful patterns and perhaps understand what draws our eyes to the skies. 
+  <br>
+  <br>
+  
+  <h2>1. Geographic Hotspots: Where Are UFOs Seen?</h2>
+  
+  The first thing we wanted to understand was where these sightings are happening. The map below shows the number of UFO reports throught the US based on their coordinates, allowing us to identify regions with the highest frequency of sightings and begin exploring why these areas might stand out.
 
   </div>
 
@@ -40,10 +43,25 @@ layout: home
 
   <br>
 
-    
   <div class="main-content">
-    We are able to notice areas like southern California and Arizona and North Washington showing more concentrated sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to UFO encounters?
-    <br>
+
+  We are able to see some hotspots emerge throughout the country. Regions such as the Desert Southwest - including Southern California and Arizona - Northern Washington and the Greater New York area show higher concentrations of reported sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to have more encounters?
+  <br>
+  <br>
+  <br>
+  
+  <b> DONE UNTIL HERE <b>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  To investigate this further, we added to more aspects to our geographical research. Could these hotspots reflect the population density of those areas, or might their procimity to military bases, like Area 51 in the Dest Southwest, be influencing the frequency of sightings? We will consider hotspots 
+  <br>
+  <br>
+
     When cross-referenced with U.S. population density in the BELOW GRAPH, there is a clear correlation: more populous areas tend to report more sightings. However, some regions—such as parts of rural Washington—exceed expectations, suggesting that other factors like local culture, visibility, or even regional belief systems might play a role.
     <br>
     <br>

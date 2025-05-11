@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Bowlby+One+SC&family=Londrina+Solid&display=swap');
 
 
 /*Navigation Bar */
@@ -17,8 +17,8 @@
 /*Header*/
 .post-header {
     color: rgb(252, 252, 252);
-    /* font-family: 'Londrina Solid'; */
-    font-size: 50px;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 30px;
     text-align: center;
     width: 100%;
     max-width: 1300px;
@@ -62,6 +62,7 @@ body {
     box-sizing: border-box;
     margin-top: 0px;
     padding-top: 20px;
+    text-align: justify;
 }
 
 /*Footer */
