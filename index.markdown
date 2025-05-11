@@ -45,12 +45,12 @@ layout: home
 
   <div class="main-content">
 
-  We are able to see some hotspots emerge throughout the country. Regions such as the Desert Southwest - including Southern California and Arizona - Northern Washington and the Greater New York area show higher concentrations of reported sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to have more encounters?
+  We are able to see some hotspots emerge throughout the country. Regions such as the Desert Southwest, including Southern California and Arizona, Northern Washington and the Greater New York area show higher concentrations of reported sightings. But what makes these locations so popular? Are they simply larger, more populated areas, or is there something about these regions that makes them more prone to have more encounters?
 
   <br>
   <br>
 
-  To investigate this further, we added to more aspects to our geographical research. Could these hotspots reflect the population density of those areas, or might their procimity to military bases, like Area 51 in the Desert Southwest, be influencing the frequency of sightings? We will consider hotspot areas as those with 300+ sightings and plot both the density and military regions in relation to these hotspots.
+  To investigate this further, we added two more aspects to our geographical research. Could these hotspots reflect the population density of those areas, or might their procimity to military bases, like Area 51 in the Desert Southwest, be influencing the frequency of sightings? We will consider hotspot areas as those with 100+ sightings and plot both the density and military regions in relation to these hotspots.
   <br>
   <br>
   
@@ -59,11 +59,11 @@ layout: home
   <div class="iframe-wrapper">
     <div class="iframe-frame">
         <div class = "iframe-title"> Population Density Near Hotspots </div>
-        <iframe id="population_densities" src="{{ site.baseurl }}images/ufo_hotspots_population_densities_3d.html" width="100%" height="350px" title="3D Mapping of the hotspots with the population densities." frameBorder="0"></iframe>
+        <iframe id="population_densities" src="{{ site.baseurl }}images/ufo_hotspots_population_densities_3d.html" width="100%" height="300px" title="3D Mapping of the hotspots with the population densities." frameBorder="0"></iframe>
     </div>
     <div class="iframe-frame">
         <div class = "iframe-title"> Military Bases Near Hotspots </div>
-        <iframe id="hotspots_military" src="{{ site.baseurl }}images/ufo_hotspots_military_3d.html" width="100%" height="350px" title="3D Mapping of the hotspots with the military bases." frameBorder="0"></iframe>
+        <iframe id="hotspots_military" src="{{ site.baseurl }}images/ufo_hotspots_military_3d.html" width="100%" height="300px" title="3D Mapping of the hotspots with the military bases." frameBorder="0"></iframe>
     </div>
   </div>
 
@@ -71,65 +71,57 @@ layout: home
   
   <div class="main-content">
 
-  <b> UNTIL HERE </b>
-  The left most graph above overlays population density with the focused hotspots. We can definetly see some correlation within areas like Southern California and the New York greater area. However, parts of the Southwest, including rural Arizona, New Mexico and the parts of the Washington state, don't follow as expected, with 
+  The left most graph above overlays population density with the focused hotspots. We can definetly see some correlation within areas like Southern California and the New York greater area. However, parts of the Southwest, including rural Arizona, New Mexico and the parts of the Washington state, don't follow as expected, with relatively low population density but still reporting a high number of sightings.
+  <br>
+  This suggests, even though the population can have some influence on these reports, its not the only factor at play here.
+  <br>
+  <br>
+  To explore another possible explanation, the right most map plots the location of military bases relative to the same hotspots. Here, an interesting pattern emerges: many sightings occur near or around military zones—especially in the Desert Southwest, where facilities like Area 51 and Edwards Air Force Base are located. Similar overlaps appear in states like Texas, Florida, and Virginia, all of which host major military operations.
+  <br>
+  <br>
+  Considering both of these analysis, we can't conclude on one single factor that can fully explain this distribution. While population somewhat aligns with certain hotspots - particularly in urban coastal areas - other regions with fewer people still report very frequent sightings. The proximity of many of these locations to military installations suggests additional influences, whether from aerial testing activities or the increased public awareness and speculation that surrounds such areas. 
+  <br>
+  <br>
   
-   which hav It reveals that many of the hotspots—such as those in Southern California, the New York–New Jersey metro area, and Florida—closely align with densely populated areas. This correlation suggests that more populated regions naturally produce more sightings, likely due to the higher number of potential observers and easier access to technology for reporting incidents.
-  <br>
-  However, this pattern doesn’t fully explain all hotspot areas. For example, parts of the Southwest, including rural Arizona and New Mexico, report a high number of sightings despite relatively lower population densities.
-  <br>
-  <br>
-  To explore another possible explanation, the second map plots the location of military bases relative to the same UFO hotspots. Here, an interesting pattern emerges: many sightings occur near or around military zones—especially in the Desert Southwest, where facilities like Area 51 and Edwards Air Force Base are located. Similar overlaps appear in states like Texas, Florida, and Virginia, all of which host major military operations.
-  <br>
-  This raises the possibility that classified military aircraft or exercises may be mistaken for UFOs. Alternatively, it invites speculation about whether these regions truly experience more unexplained activity.
-  <br>
-  <br>
+  <h2>2. Temporal Trends: When Are UFOs Seen?</h2>
 
-</div>
 
-  <div>
-    <iframe id="hotspots_military" src="{{ site.baseurl }}images/ufo_hotspots_military_3d.html" width="100%" height="450px" title="3D Mapping of the hotspots with the military bases." frameBorder="0"></iframe>
-  </div>
-
-  <div class="main-content">
-    <h2>2. Temporal Trends: When Are UFOs Seen?</h2>
-    
-    Understanding the timing of sightings can offer insight into public interest, media influence, or political context. Below, we chart the number of sightings over time alongside the sitting U.S. president.
+  Another interesting aspect of our data is the timing of UFO sightings. By looking at possible patterns in these reports, we identify connections to cultural events or reflect wider societal concerns. This approach has been explored in several studies which we will try and use to explain these factors.
+  
+  <br>
+  <br>
+  In the graph below, we visualize reported sightings across the decades, aligning them with U.S. presidential terms. This helps us look for patterns and surges in public reporting, and assess whether leadership changes, national discourse, or specific political eras might correlate with heightened UFO activity.
     
   </div>
   
-  <div>
-    <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_presidents.html" width="100%"  height="750px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe>
+  <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0; margin-left: 20px;">
+    <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_presidents.html" width="100%"  height="550px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe>
   </div>
     
   <div class="main-content">
 
-    Looking at UFO sightings across decades a steady and slow rise among the 1960s, there is also a dramatic increase beginning in the 1990s and peaking in the early 2010s. Some of these spikes align closely with major cultural, political, and technological moments, suggesting that these reports may not just reflect unexplained phenomena, but also mirror societal moods, pop culture narratives, and platforms where stories can be shared.
+  By looking at the above graph, its possible to see a steady and slow rise of reported sightings along the early years of the previous century. However, there is a sharp increase in the begining of the 1990s and peak in the early 2010s. Looking closely at each phase we can conclude:
+  <ul>
+    <li><b>1960s–1980s:</b> The steady climb begins in the Cold War era, marked by space race milestones, conspiracy theories, and increasing interest in UFOs as part of popular culture. This era set the stage for the widespread cultural obsession with extraterrestrial life, a trend that has persisted into modern media and culture. <a href="https://www.theguardian.com/culture/2021/jun/25/how-pop-culture-has-shaped-our-understanding-of-aliens" target="_blank">The Guardian </a> was one of the media outlets that discusses how pop culture, including these shows, shaped our collective understanding of aliens and UFOs creating a wave of awareness and understanding previously unpreceded.</li>
+    <li><b>1990s:</b> UFO sightings during this period, such as the Phoenix Lights (1997), were now possible to be recorded, saved and shared very easily by the the greater majority of the public. It was also brought to light during this period discussions about government cover-ups and classified military information, amplified by the rise of the internet as a space for conspiracy theories to flourish. Research has shown that major UFO events in the late 20th century significantly shaped our understanding of extraterrestrial phenomena as a culture, helping to drive the ongoing "UFO boom" that peaked in the 2010s by the <a href="https://newspaceeconomy.ca/2024/09/02/timeline-of-major-ufo-uap-events/" target="_blank">NewSpace Economy timeline of major UFO events</a>.</li>
+    <li><b>Early 2000s:</b> The surge continues, possibly fueled by post-9/11 anxieties, growing internet communities, and frequent coverage of extraterrestrial topics in popular media. New media outlets like YouTube allowed people to share UFO sightings and related experiences instantly. The growing connection between social media platforms and UFO sightings in this period helped facilitate more public participation in UFO-related discourse. This shift was documented in several studies, which discuss how the internet transformed public participation in UFO phenomena, as shown in the article about <a href="https://www.nature.com/articles/s41599-024-04182-z" target="_blank">Nature Communications Study</a> about the role of digital platforms in the growing interest in UAPs.</li>
+    <li><b>2010 Forward:</b> The peak in sightings may reflect both widespread social media use and official military or government statements reigniting public attention toward unidentified aerial phenomena. The U.S. Department of Defense’s public acknowledgment of UFO investigations (including the release of videos in 2017) prompted a renewed public interest, which pieced together with the rapid spread of information through online communities, led to a spike in sightings. For example, in the <a href="https://www.nature.com/articles/s41598-023-49527-x?fromPaywallRec=false#Sec8" target="_blank">Nature Study on UAP</a> it is discussed the growing number of UAP-related sightings and their analysis through data, showing a correlation between official disclosures and the increase in UAP reports. </li>
+  </ul>
+  
+  The main takeaway from these fluctuations is that the rise and fall of UFO sightings over time are not merely reflections of growing extraterrestrial curiosity, but also mirror larger socio-political and technological shifts in society. As our ability to share information has evolved, so too has the cultural and public fascination with the unknown.
 
-    <ul>
-    <li><b>1960s–1980s:</b> The steady climb begins in the Cold War era, marked by space race milestones, conspiracy theories, and increasing interest in UFOs as part of popular culture. This era set the stage for the widespread cultural obsession with extraterrestrial life, a trend that has persisted into modern media and culture. <a href="https://www.theguardian.com/culture/2021/jun/25/how-pop-culture-has-shaped-our-understanding-of-aliens" target="_blank">The Guardian discusses how pop culture, including these shows, shaped our collective understanding of aliens and UFOs.</a></li>
+  <h2>What Are People Seeing?</h2>
 
-    <li><b>Late 1990s:</b> UFO sightings during this period, such as the Phoenix Lights (1997) and Gulf Breeze sightings (1995), were covered by the media and spiked curiosity among the population about possible alien encounters. This was also a time of increased discussion about government cover-ups and classified military information, amplified by the rise of the internet as a space for conspiracy theories to flourish. Research has shown that major UFO events in the late 20th century significantly shaped our understanding of extraterrestrial phenomena as a culture, helping to drive the ongoing "UFO boom" that peaked in the 2010s. <a href="https://newspaceeconomy.ca/2024/09/02/timeline-of-major-ufo-uap-events/" target="_blank">NewSpace Economy timeline of major UFO events</a>.</li>
-
-    <li><b>Early 2000s:</b> The surge continues, possibly fueled by post-9/11 anxieties, growing internet communities, and frequent coverage of extraterrestrial topics in popular media. New media outlets like YouTube allowed people to share UFO sightings and related experiences instantly. Additionally, the rise of the internet led to more widespread and immediate public access to information about UFOs encouraging widespread interest. The growing connection between social media platforms and UFO sightings in this period helped facilitate more public participation in UFO-related discourse. This shift was documented in several studies, which discuss how the internet transformed public participation in UFO phenomena, as shown in the article from <em>Nature Communications</em> about the role of digital platforms in the growing interest in UAPs. <a href="https://www.nature.com/articles/s41599-024-04182-z" target="_blank">Nature Communications Study</a>.</li>
-
-    <li><b>2010–2014:</b> The peak in sightings may reflect both widespread social media use and official military or government statements reigniting public attention toward unidentified aerial phenomena.The U.S. Department of Defense’s public acknowledgment of UFO investigations (including the release of videos in 2017) prompted a renewed public interest, which dovetailed with an increasingly connected world where sightings could be shared instantly across platforms like Twitter and Facebook. This era saw a spike in sightings tied to both increased government transparency and the rapid spread of information through online communities. For example, a study published in <em>Nature</em> discusses the growing number of UAP-related sightings and their analysis through data, showing a correlation between official disclosures and the increase in UAP reports. <a href="https://www.nature.com/articles/s41598-023-49527-x?fromPaywallRec=false#Sec8" target="_blank">Nature Study on UAP</a>.</li>
-
-    </ul>
-
-    <h3>References & Sources</h3>
-    <ul>
-        <li><a href="https://newspaceeconomy.ca/2024/09/02/timeline-of-major-ufo-uap-events/" target="_blank">NewSpace Economy: Timeline of Major UFO Events</a></li>
-        <li><a href="https://www.nature.com/articles/s41599-024-04182-z" target="_blank">Nature Communications: Study on the Role of Digital Platforms in UFO/UAP Growth</a></li>
-        <li><a href="https://www.nature.com/articles/s41598-023-49527-x?fromPaywallRec=false#Sec8" target="_blank">Nature: UAP Study and Sightings Data Analysis</a></li>
-        <li><a href="https://www.theguardian.com/culture/2021/jun/25/how-pop-culture-has-shaped-our-understanding-of-aliens" target="_blank">The Guardian: How Pop Culture Shaped Our Understanding of Aliens</a></li>
-    </ul>
+  Considering our previous research questions of <em>where</em> and <em>when</em> UFO sightings occur, the want to finalize our analysis with uncovering what people are actually seeing. 
 
 
-    <h2>What Are People Seeing?</h2>
+  
+
   </div>
 
   <img id="wordcloud" src="{{ site.baseurl }}images/ufo_wordcloud.png" width="100%" alt="Word Cloud of UFO Descriptions"/>
+
+  <iframe id="cooccurrence plot" src="{{ site.baseurl }}images/ufo_keyword_cooccurrence_network.html" width="100%"  height="750px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe>
 
 <url> https://www.nature.com/articles/s41599-024-04182-z
 </body>
