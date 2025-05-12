@@ -105,7 +105,7 @@ layout: home
   
   <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0; margin-left: 20px;">
     <figure>
-      <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_presidents.html" width="100%"  height="550px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe>
+      <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_timeline.html" width="100%"  height="550px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe>
       <figcaption>Figure 4: Number of UFO sightings over the years.</figcaption>
     </figure>
   </div>
