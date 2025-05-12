@@ -15,3 +15,5 @@ wordcloud
 geopy
 h3
 setuptools
+networkx
+plotly
