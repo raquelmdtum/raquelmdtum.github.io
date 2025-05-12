@@ -18,11 +18,13 @@ permalink: /about/
         <li><strong>Common descriptions</strong>, shapes, and colors from eyewitness reports</li>
     </ul>
 
-    <p>Our goal is to let the data tell the story — sparking curiosity about what patterns lie behind the unknown.</p>
+    <p>Our goal is to use data tell a story that sparks curiosity about what patterns lie behind the unknown.</p>
 
     <hr>
+    
+    <p> </p>
 
-    <h3>Done by group 53. Members:</h3>
+    <h3>Done by members of Group 53:</h3>
     <ul>
         <li>Inês Tacanho: s232669</li>
         <li>Raquel Marques: s243636</li>
