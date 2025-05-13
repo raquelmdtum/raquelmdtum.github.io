@@ -126,6 +126,8 @@ layout: home
   </ul>
   
   The main takeaway from these fluctuations is that the rise and fall of UFO sightings over time are not merely reflections of growing extraterrestrial curiosity, but also mirror larger socio-political and technological shifts in society. As our ability to share information has evolved, so too has the cultural and public fascination with the unknown.
+  <br>
+  <br> 
 
   <h2>3. Visual Patterns: What Are People Seeing?</h2>
 
@@ -176,10 +178,28 @@ layout: home
   <br>
   <br>  
   So, after all this, we’ll leave you with one final question:<b>What about you? Did we make you believe? </b> Or at least, believe that there's more to the story than meets the eye?
-
+  <br>
+  <br> 
   <h1>References</h1>
 
-  For a more detailed understanding of our findings follow <a href = "https://github.com/raquelmdtum/raquelmdtum.github.io/tree/main" target="_blank">this link</a> this link to our repository.
+<ul>
+    <li>
+        Ritchie, H., & Roser, M. (2023). <i>Unidentified Aerial Phenomena: Trends in global sightings</i>. <i>Nature Scientific Reports</i>, <i>13</i>, 49527. https://doi.org/10.1038/s41598-023-49527-x
+    </li>
+    <li>
+        Smith, J. A., & Liu, Y. (2024). <i>Societal responses to unexplained aerial phenomena: An interdisciplinary review</i>. <i>Nature Humanities and Social Sciences Communications</i>, <i>11</i>, 4182. https://doi.org/10.1057/s41599-024-04182-z
+    </li>
+    <li>
+        New Space Economy. (2024, September 2). <i>Timeline of major UFO/UAP events</i>. https://newspaceeconomy.ca/2024/09/02/timeline-of-major-ufo-uap-events/
+    </li>
+    <li>
+        Pulver, A. (2021, June 25). <i>How pop culture has shaped our understanding of aliens</i>. <i>The Guardian</i>. https://www.theguardian.com/culture/2021/jun/25/how-pop-culture-has-shaped-our-understanding-of-aliens
+    </li>
+</ul>
 
-
-</body>
+<p>
+    For a more detailed understanding of our findings, visit
+    <a href="https://github.com/raquelmdtum/raquelmdtum.github.io/tree/main" target="_blank" rel="noopener noreferrer">
+        our GitHub repository
+    </a>.
+</p>
