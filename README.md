@@ -7,7 +7,7 @@ This project explores the fascinating world of UFO sightings in the United State
 - Raquel Marques (s243636)
 - Sree Keerthi Desu (s243933)
 
-By analyzing UFO sighting records, we investigate where and when people report seeing UFOs and what patterns emerge in the language they use. Using a mix of geographic, temporal, and text analysis, this project aims to make sense of the data behind the mystery.
+By analyzing UFO sighting records, we explore where and when people report seeing UFOs and what patterns emerge in the language they use. Using a mix of geographic, temporal, and text analysis, this project aims to make sense of the data behind the mystery.
 
 ### Our research questions:
 
@@ -20,7 +20,6 @@ By analyzing UFO sighting records, we investigate where and when people report s
 1. Clone the repository:
    ```bash
    git clone https://github.com/raquelmdtum/raquelmdtum.github.io.git
-   cd ufo-sightings-project
    
 2. Install dependencies:
     pip install -r requirements.txt
