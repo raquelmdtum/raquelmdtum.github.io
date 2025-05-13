@@ -16,7 +16,7 @@ layout: home
 <body>
   <div class="main-content">
 
-  For many years, people have wondered whether there is anything more out there besides our beloved Earth. Sightings of Unidentified Flying Objects, commonly referred to as UFOs,  worldwide have begun to pique our interest in what is out there in the unknown. What once seemed like fantastical and crazy stories of strange shapes and lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors lies a wealth of data.
+  For many years, people have wondered whether there is anything more out there besides our beloved Earth. Sightings of Unidentified Flying Objects, commonly referred to as UFOs, or Unidentified Aerial Phenomena (UAPs) worldwide have begun to pique our interest in what is out there in the unknown. What once seemed like fantastical and crazy stories of strange shapes and lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors lies a wealth of data.
   <br>
   <br>
   In this project, we will analyze UFO sightings' data from across the United States to uncover patterns in their geographic distribution, timing, and the way witnesses describe these events. To guide us through this project, we will focus on answering these three questions:
@@ -36,13 +36,13 @@ layout: home
   The first thing we wanted to understand was where these sightings were happening. The map below shows the number of UFO reports throughout the United States (US) based on their coordinates, which allows us to identify regions with the highest frequency of sightings and, so, we can begin exploring why these areas might stand out.
 
   </div>
-
-  <div>
+  
+   <div>
     <figure>
       <iframe id="3d_map" src="{{ site.baseurl }}images/3d_ufo_sightings_map.html" width="100%" height="450px" title="3D Mapping of sightings" frameBorder="0"></iframe>
-      <figcaption>Figure 1: An interactive map of the UFO sightings displayed using 3D bars to show spread and frequencies.</figcaption>
+      <figcaption class = 'main-content'>Figure 1: An interactive map of the UFO sightings displayed using 3D bars to show spread and frequencies.</figcaption>
     </figure>
-  </div>
+  </div> 
 
   <br>
 
@@ -58,24 +58,24 @@ layout: home
   <br>
   
   </div>
-
+   
   <div class="iframe-wrapper">
     <div class="iframe-frame">
         <div class = "iframe-title"> Population Density Near Hotspots </div>
           <figure>
             <iframe id="population_densities" src="{{ site.baseurl }}images/ufo_hotspots_population_densities_3d.html" width="100%" height="300px" title="3D Mapping of the hotspots with the population densities." frameBorder="0"></iframe>
-            <figcaption>Figure 2: An interactive map of hotspots of UFO sightings where the states are colored by population densities.</figcaption>
+            <figcaption class = "main-content">Figure 2: An interactive map of hotspots of UFO sightings where the states are colored by population densities.</figcaption>
           </figure>
     </div>
     <div class="iframe-frame">
         <div class = "iframe-title"> Military Bases Near Hotspots </div>
           <figure>
             <iframe id="hotspots_military" src="{{ site.baseurl }}images/ufo_hotspots_military_3d.html" width="100%" height="300px" title="3D Mapping of the hotspots with the military bases." frameBorder="0"></iframe>
-            <figcaption>Figure 3: An interactive map of hotspots of UFO sightings along with their nearest military bases.</figcaption>
+            <figcaption class = "main-content">Figure 3: An interactive map of hotspots of UFO sightings along with their nearest military bases.</figcaption>
           </figure>
     </div>
   </div>
-
+  
 
   
   <div class="main-content">
@@ -103,12 +103,14 @@ layout: home
     
   </div>
   
-  <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0; margin-left: 20px;">
-    <figure>
-      <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_timeline.html" width="100%"  height="550px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe>
-      <figcaption>Figure 4: Number of UFO sightings over the years.</figcaption>
-    </figure>
-  </div>
+
+
+<div style="margin-left: 250px; margin: 10px; text-align:center; ">
+  <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_timeline.html" width="100%" height="550px" style="border: none; display: block; margin: 0 auto;" title="Sightings Over Time and Presidency">
+  </iframe>
+  <figcaption class = "main-content" style="text-align:center;"> Figure 4: Number of UFO sightings over the years. </figcaption>
+</div>
+
     
   <div class="main-content">
 
@@ -118,7 +120,7 @@ layout: home
     <p></p>
     <li><b>1990s:</b> UFO sightings during this period, such as the Phoenix Lights (1997), were now possible to be recorded, saved, and shared very easily by the greater majority of the public. It was also brought to light during this period discussions about government cover-ups and classified military information, amplified by the rise of the internet as a space for conspiracy theories to flourish. Research has shown that major UFO events in the late 20th century significantly shaped our understanding of extraterrestrial phenomena as a culture, helping to drive the ongoing "UFO boom" that peaked in the 2010s by the <a href="https://newspaceeconomy.ca/2024/09/02/timeline-of-major-ufo-uap-events/" target="_blank">NewSpace Economy timeline of major UFO events</a>.</li>
     <p></p>
-    <li><b>Early 2000s:</b> The surge continues, possibly fueled by post-9/11 anxieties, growing internet communities, and frequent coverage of extraterrestrial topics in popular media. New media outlets like YouTube allowed people to share UFO sightings and related experiences instantly. The growing connection between social media platforms and UFO sightings in this period helped facilitate more public participation in UFO-related discourse. This shift was documented in several studies, which discuss how the internet transformed public participation in UFO phenomena, as shown in the article about <a href="https://www.nature.com/articles/s41599-024-04182-z" target="_blank">Nature Communications Study</a> about the role of digital platforms in the growing interest in Unidentified Aerial Phenomena (UAPs) <span text-color:red> (synonymous to UFOs)</span>.</li>
+    <li><b>Early 2000s:</b> The surge continues, possibly fueled by post-9/11 anxieties, growing internet communities, and frequent coverage of extraterrestrial topics in popular media. New media outlets like YouTube allowed people to share UFO sightings and related experiences instantly. The growing connection between social media platforms and UFO sightings in this period helped facilitate more public participation in UFO-related discourse. This shift was documented in several studies, which discuss how the internet transformed public participation in UFO phenomena, as shown in the article about <a href="https://www.nature.com/articles/s41599-024-04182-z" target="_blank">Nature Communications Study</a> about the role of digital platforms in the growing interest in Unidentified Aerial Phenomena (UAPs).</li>
     <p></p>
     <li><b>2010 Forward:</b> The peak in sightings may reflect both widespread social media use and official military or government statements reigniting public attention toward the UAPs. The U.S. Department of Defense’s public acknowledgment of UFO investigations (including the release of videos in 2017) prompted a renewed public interest, which, pieced together with the rapid spread of information through online communities, led to a spike in sightings. For example, in the <a href="https://www.nature.com/articles/s41598-023-49527-x?fromPaywallRec=false#Sec8" target="_blank">Nature Study on UAP</a> it is discussed the growing number of UAP-related sightings and their analysis through data are discussed, showing a correlation between official disclosures and the increase in UAP reports. </li>
   </ul>
@@ -133,21 +135,23 @@ layout: home
   <br>
 
   <figure>
-    <img id="wordcloud" src="{{ site.baseurl }}images/ufo_wordcloud.png" width="100%" alt="Word Cloud of UFO Descriptions" style = "float: left; width: 50%; margin-right: 20px; margin-bottom: 10px;"/>
-    <figcaption>Figure 5: A wordcloud showing the most commonly used terms within people's descriptions of their UFO encounters.</figcaption>
+    <img id="wordcloud" src="{{ site.baseurl }}images/ufo_wordcloud.png" width="100%" alt="Word Cloud of UFO Descriptions" style = "float: left; width: 50%; margin-right: 20px;"/>
+    <figcaption class = "main-content" style = "float: left; width: 50%; margin-right: 20px;" >Figure 5: A wordcloud showing the most commonly used terms within people's descriptions of their UFO encounters.</figcaption>
   </figure>
   The plot on the left is a word cloud that shows the top keywords from these descriptions. Larger words indicate terms that appear more frequently, highlighting common descriptors such as <em>light</em>, <em>bright</em>, <em>formation</em>, and <em>triangle</em>. 
   Color references like <em>green</em>, <em>red</em>, <em>white</em>, and <em>orange</em> are also prevalent, suggesting varied perceived object appearances. 
   Words like <em>hovering</em>, <em>flying</em>, and <em>fast</em> indicate the described motion patterns.
   <br>
   <br>
+  <br>
+  <br>
   The following 3D network graph is an expansion of these words to explore how specific terms are connected to particular UFO shapes reported by witnesses.
 
   </div>
 
-  <figure>
+   <figure>
     <iframe id="network_3d" src="{{ site.baseurl }}images/ufo_keyword_cooccurrence_network.html" width="100%"  height="650px"  style="border: none;" title="Co-Occurance 3D network"></iframe>
-    <figcaption>Figure 6: A network that shows different words within people's descriptions of UFO encounters are linked to each other.</figcaption>
+    <figcaption class = "main-content">Figure 6: A network that shows different words within people's descriptions of UFO encounters are linked to each other.</figcaption>
   </figure>
 
   <div class = "main-content">
@@ -173,11 +177,9 @@ layout: home
   <br>  
   So, after all this, we’ll leave you with one final question:<b>What about you? Did we make you believe? </b> Or at least, believe that there's more to the story than meets the eye?
 
+  <h1>References</h1>
 
-  </div>
+  For a more detailed understanding of our findings follow <a href = "https://github.com/raquelmdtum/raquelmdtum.github.io/tree/main" target="_blank">this link</a> this link to our repository.
 
-  
-
-  <!-- <iframe id="cooccurrence plot" src="{{ site.baseurl }}images/ufo_keyword_cooccurrence_network.html" width="100%"  height="500px"  style="border: none;" title="Sightings Over Time and Presidency"></iframe> -->
 
 </body>
