@@ -16,7 +16,7 @@ layout: home
 <body>
   <div class="main-content">
 
-  For many years, people have wondered whether there is anything more out there besides our beloved Earth. Sightings of Unidentified Flying Objects, commonly referred to as UFOs, or Unidentified Aerial Phenomena (UAPs) worldwide have begun to pique our interest in what is out there in the unknown. What once seemed like fantastical and crazy stories of strange shapes and lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors lies a wealth of data.
+  For many years, people have wondered whether there is anything more out there besides our beloved Earth. Sightings of Unidentified Flying Objects, commonly referred to as UFOs, or Unidentified Aerial Phenomena (UAPs), worldwide have begun to pique our interest in what is out there in the unknown. What once seemed like fantastical and crazy stories of strange shapes and lights in the sky has become a growing field of research, sparking debate, curiosity, and wonder. But behind the anecdotes and rumors lies a wealth of data.
   <br>
   <br>
   In this project, we will analyze UFO sightings' data from across the United States to uncover patterns in their geographic distribution, timing, and the way witnesses describe these events. To guide us through this project, we will focus on answering these three questions:
@@ -99,14 +99,14 @@ layout: home
   
   <br>
   <br>
-  In the graph below, we visualize reported sightings across the decades, aligning them with U.S. presidential terms. This helps us look for patterns and surges in public reporting, and assess whether leadership changes, national discourse, or specific political eras might correlate with heightened UFO activity.
+  In the graph below, we visualize reported sightings across the decades.
     
   </div>
   
 
 
 <div style="margin-left: 250px; margin: 10px; text-align:center; ">
-  <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_timeline.html" width="100%" height="550px" style="border: none; display: block; margin: 0 auto;" title="Sightings Over Time and Presidency">
+  <iframe id="timeline_plot" src="{{ site.baseurl }}images/ufo_sightings_timeline.html" width="100%" height="550px" style="border: none; display: block; margin: 0 auto;" title="Sightings Over Time">
   </iframe>
   <figcaption class = "main-content" style="text-align:center;"> Figure 4: Number of UFO sightings over the years. </figcaption>
 </div>
@@ -116,7 +116,7 @@ layout: home
 
   By looking at the above graph, it's possible to see a steady and slow rise in reported sightings in the early years of the previous century. However, there is a sharp increase at the beginning of the 1990s and a peak in the early 2010s. Looking closely at each phase, we can concludethe following:
   <ul>
-    <li><b>1960s–1980s:</b> The steady climb begins in the Cold War era, marked by space race milestones, conspiracy theories, and increasing interest in UFOs as part of popular culture. This era set the stage for the widespread cultural obsession with extraterrestrial life, a trend that has persisted into modern media and culture. <a href="https://www.theguardian.com/culture/2021/jun/25/how-pop-culture-has-shaped-our-understanding-of-aliens" target="_blank">The Guardian </a> was one of the media outlets that discussed how pop culture, including these shows, shaped our collective understanding of aliens and UFOs, creating a wave of awareness and understanding previously unpreceded.</li>
+    <li><b>1960s–1980s:</b> The steady climb begins in the Cold War era, marked by space race milestones, conspiracy theories, and increasing interest in UFOs as part of popular culture. This era set the stage for the widespread cultural obsession with extraterrestrial life, a trend that has persisted into modern media and culture. <a href="https://www.theguardian.com/culture/2021/jun/25/how-pop-culture-has-shaped-our-understanding-of-aliens" target="_blank">The Guardian </a> was one of the media outlets that discussed how pop culture shaped our collective understanding of aliens and UFOs, creating a wave of awareness and understanding previously unpreceded.</li>
     <p></p>
     <li><b>1990s:</b> UFO sightings during this period, such as the Phoenix Lights (1997), were now possible to be recorded, saved, and shared very easily by the greater majority of the public. It was also brought to light during this period discussions about government cover-ups and classified military information, amplified by the rise of the internet as a space for conspiracy theories to flourish. Research has shown that major UFO events in the late 20th century significantly shaped our understanding of extraterrestrial phenomena as a culture, helping to drive the ongoing "UFO boom" that peaked in the 2010s by the <a href="https://newspaceeconomy.ca/2024/09/02/timeline-of-major-ufo-uap-events/" target="_blank">NewSpace Economy timeline of major UFO events</a>.</li>
     <p></p>
@@ -158,9 +158,9 @@ layout: home
 
   <div class = "main-content">
 
-  The network visualization makes it clear that <b>light</b> is not only the most frequently used word in descriptions, but it is also the most broadly connected across multiple UFO shapes. This suggests that many sightings involve some form of luminous or glowing object, regardless of the specific shape reported.
+  The network visualization makes it clear that <em>light</em> is not only the most frequently used word in descriptions, but it is also the most broadly connected across multiple UFO shapes. This suggests that many sightings involve some form of luminous or glowing object, regardless of the specific shape reported.
 
-  In contrast, words like <b>formation</b> and <b>triangle</b> appear visually prominent in the word cloud but have far fewer strong connections in the network (with edge weights around 305). This suggests that although they are relatively common words, they tend to be used in more specific or isolated contexts rather than broadly across different sightings.
+  In contrast, words like <em>formation</em> and <em>triangle</em> appear visually prominent in the word cloud but have far fewer strong connections in the network (with edge weights around 305). This suggests that although they are relatively common words, they tend to be used in more specific or isolated contexts, rather than broadly across different sightings.
 
   Additionally, some of the more strongly connected terms — those with co-occurrence weights over 1,000 — include generic descriptors like <em>light</em>, <em>red</em>, <em>white</em>, and <em>flashing</em>, reinforcing the idea that many UFO sightings share a core vocabulary centered around luminosity and ambiguity.
 
@@ -177,7 +177,7 @@ layout: home
   These patterns suggest that UFO sightings are influenced by cultural, political, and technological factors and reflect a broader societal fascination with the unknown.
   <br>
   <br>  
-  So, after all this, we’ll leave you with one final question:<b>What about you? Did we make you believe? </b> Or at least, believe that there's more to the story than meets the eye?
+  So, after all this, we’ll leave you with one final question: <b>What about you? Did we make you believe? </b> Or at least, believe that there's more to the story than meets the eye?
   <br>
   <br> 
   <h1>References</h1>
